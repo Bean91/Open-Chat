@@ -37,4 +37,14 @@ int main() {
         }
         std::cout << std::endl;
     }
+    
+    openchat::utility::matrix g = openchat::utility::softmax(a);
+    
+    std::cout << "softmax" << std::endl;
+    for (std::vector<float> c : g) {
+        for (float d : c) {
+            std::cout << d << " ";
+        }
+        std::cout << std::endl;
+    }
 }

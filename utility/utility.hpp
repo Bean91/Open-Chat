@@ -1,6 +1,7 @@
 #include <vector>
 #include <iostream>
 #include <stdexcept>
+#include <cmath>
 
 namespace openchat {
     namespace utility {
@@ -40,6 +41,45 @@ namespace openchat {
             }
             
             return c;
+        }
+        
+        matrix softmax(matrix a) {
+            std::vector<float> col_sums;
+            col_sums.resize(a.size());
+            
+            for (int i = 0; i < a.size(); i++) {
+                float max_val = *std::max_element(a[i].begin(), a[i].end());
+                for (int j = 0; j < a[i].size(); j++) {
+                    a[i][j] = std::exp(a[i][j] - max_val);
+                    col_sums[i] += a[i][j]; 
+                }
+                
+                for (int k = 0; k < a[i].size(); k++) {
+                    a[i][k] /= col_sums[i]; 
+                }
+            }
+            
+            return a;
+        }
+        
+        matrix scalar_mult(matrix a, float b) {
+            for (int i = 0; i < a.size(); i++) {
+                for (int j = 0; j < a[i].size(); j++) {
+                    a[i][j] *= b;
+                }
+            }
+            
+            return a;
+        }
+        
+        matrix scalar_div(matrix a, float b) {
+            for (int i = 0; i < a.size(); i++) {
+                for (int j = 0; j < a[i].size(); j++) {
+                    a[i][j] /= b;
+                }
+            }
+            
+            return a;
         }
     };
 }
