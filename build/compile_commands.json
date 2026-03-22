@@ -1,0 +1,1034 @@
+[
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_COMMIT=\\\"49bfddeca\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.8\\\" -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -arch arm64 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -o CMakeFiles/ggml-base.dir/ggml.c.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml.c",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml.c",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"49bfddeca\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.8\\\" -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/ggml-base.dir/ggml.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_COMMIT=\\\"49bfddeca\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.8\\\" -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -arch arm64 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -o CMakeFiles/ggml-base.dir/ggml-alloc.c.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-alloc.c",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-alloc.c",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"49bfddeca\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.8\\\" -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/ggml-base.dir/ggml-backend.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-backend.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-backend.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"49bfddeca\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.8\\\" -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/ggml-base.dir/ggml-opt.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-opt.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-opt.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"49bfddeca\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.8\\\" -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/ggml-base.dir/ggml-threading.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-threading.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-threading.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_COMMIT=\\\"49bfddeca\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.8\\\" -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -arch arm64 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -o CMakeFiles/ggml-base.dir/ggml-quants.c.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-quants.c",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-quants.c",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"49bfddeca\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.8\\\" -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/ggml-base.dir/gguf.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/gguf.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/gguf.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_ACCELERATE -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu11 -arch arm64 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_ACCELERATE -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_ACCELERATE -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -o CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/repack.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/repack.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_ACCELERATE -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -o CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/hbm.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/hbm.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_ACCELERATE -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu11 -arch arm64 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -o CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/quants.c",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/quants.c",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_ACCELERATE -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -o CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/traits.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/traits.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_ACCELERATE -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_ACCELERATE -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_ACCELERATE -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -o CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_ACCELERATE -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -o CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_ACCELERATE -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -o CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/vec.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/vec.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_ACCELERATE -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/ops.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/ops.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_ACCELERATE -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -o CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_ACCELERATE -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu11 -arch arm64 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/quants.c.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/arch/arm/quants.c",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/arch/arm/quants.c",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/quants.c.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_ACCELERATE -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/repack.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/arch/arm/repack.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-cpu/arch/arm/repack.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/repack.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/ggml.dir/ggml-backend-dl.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-backend-dl.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-backend-dl.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml.dir/ggml-backend-dl.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-backend-reg.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-backend-reg.cpp",
+  "output": "vendor/llama.cpp/ggml/src/CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src/ggml-blas",
+  "command": "/usr/bin/c++ -DACCELERATE_LAPACK_ILP64 -DACCELERATE_NEW_LAPACK -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_BLAS_USE_ACCELERATE -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_blas_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-blas/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-blas/ggml-blas.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-blas/ggml-blas.cpp",
+  "output": "vendor/llama.cpp/ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src/ggml-metal",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_METAL_EMBED_LIBRARY -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_metal_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/ggml-metal.dir/ggml-metal.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/ggml-metal.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/ggml-metal.cpp",
+  "output": "vendor/llama.cpp/ggml/src/ggml-metal/CMakeFiles/ggml-metal.dir/ggml-metal.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src/ggml-metal",
+  "command": "/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_METAL_EMBED_LIBRARY -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_metal_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu11 -arch arm64 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -o CMakeFiles/ggml-metal.dir/ggml-metal-device.m.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/ggml-metal-device.m",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/ggml-metal-device.m",
+  "output": "vendor/llama.cpp/ggml/src/ggml-metal/CMakeFiles/ggml-metal.dir/ggml-metal-device.m.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src/ggml-metal",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_METAL_EMBED_LIBRARY -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_metal_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/ggml-metal.dir/ggml-metal-device.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/ggml-metal-device.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/ggml-metal-device.cpp",
+  "output": "vendor/llama.cpp/ggml/src/ggml-metal/CMakeFiles/ggml-metal.dir/ggml-metal-device.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src/ggml-metal",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_METAL_EMBED_LIBRARY -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_metal_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/ggml-metal.dir/ggml-metal-common.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/ggml-metal-common.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/ggml-metal-common.cpp",
+  "output": "vendor/llama.cpp/ggml/src/ggml-metal/CMakeFiles/ggml-metal.dir/ggml-metal-common.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src/ggml-metal",
+  "command": "/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_METAL_EMBED_LIBRARY -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_metal_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu11 -arch arm64 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -o CMakeFiles/ggml-metal.dir/ggml-metal-context.m.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/ggml-metal-context.m",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/ggml-metal-context.m",
+  "output": "vendor/llama.cpp/ggml/src/ggml-metal/CMakeFiles/ggml-metal.dir/ggml-metal-context.m.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src/ggml-metal",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_METAL_EMBED_LIBRARY -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_metal_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/ggml-metal.dir/ggml-metal-ops.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/ggml-metal-ops.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/ggml-metal-ops.cpp",
+  "output": "vendor/llama.cpp/ggml/src/ggml-metal/CMakeFiles/ggml-metal.dir/ggml-metal-ops.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src/ggml-metal",
+  "command": "/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_METAL_EMBED_LIBRARY -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_metal_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/ggml-metal/.. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Metal.framework -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/MetalKit.framework -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -fPIC -o CMakeFiles/ggml-metal.dir/autogenerated/ggml-metal-embed.s.o -c /Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src/ggml-metal/autogenerated/ggml-metal-embed.s",
+  "file": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src/ggml-metal/autogenerated/ggml-metal-embed.s",
+  "output": "vendor/llama.cpp/ggml/src/ggml-metal/CMakeFiles/ggml-metal.dir/autogenerated/ggml-metal-embed.s.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-adapter.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-adapter.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-adapter.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-adapter.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-arch.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-arch.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-arch.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-arch.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-batch.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-batch.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-batch.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-batch.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-chat.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-chat.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-chat.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-chat.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-context.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-context.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-context.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-context.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-cparams.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-cparams.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-cparams.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-cparams.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-grammar.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-grammar.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-grammar.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-grammar.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-graph.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-graph.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-graph.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-graph.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-hparams.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-hparams.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-hparams.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-hparams.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-impl.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-impl.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-impl.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-impl.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-io.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-io.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-io.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-io.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-kv-cache.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-kv-cache.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-kv-cache.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-kv-cache-iswa.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-kv-cache-iswa.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-memory.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-memory.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-memory.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-memory.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-memory-hybrid.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-memory-hybrid.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-memory-hybrid-iswa.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-memory-hybrid-iswa.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-memory-hybrid-iswa.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-memory-hybrid-iswa.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-memory-recurrent.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-memory-recurrent.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-mmap.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-mmap.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-mmap.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-mmap.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-model-loader.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-model-loader.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-model-loader.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-model-loader.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-model-saver.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-model-saver.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-model-saver.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-model-saver.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-model.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-model.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-model.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-model.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-quant.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-quant.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-quant.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-quant.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-sampler.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-sampler.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-sampler.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-sampler.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/llama-vocab.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-vocab.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/llama-vocab.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/llama-vocab.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/unicode-data.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/unicode-data.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/unicode-data.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/unicode-data.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/unicode.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/unicode.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/unicode.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/unicode.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/afmoe.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/afmoe.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/afmoe.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/afmoe.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/apertus.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/apertus.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/apertus.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/apertus.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/arcee.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/arcee.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/arcee.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/arcee.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/arctic.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/arctic.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/arctic.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/arctic.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/arwkv7.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/arwkv7.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/arwkv7.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/arwkv7.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/baichuan.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/baichuan.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/baichuan.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/baichuan.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/bailingmoe.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/bailingmoe.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/bailingmoe.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/bailingmoe.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/bailingmoe2.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/bailingmoe2.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/bailingmoe2.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/bailingmoe2.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/bert.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/bert.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/bert.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/bert.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/bitnet.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/bitnet.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/bitnet.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/bitnet.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/bloom.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/bloom.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/bloom.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/bloom.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/chameleon.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/chameleon.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/chameleon.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/chameleon.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/chatglm.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/chatglm.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/chatglm.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/chatglm.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/codeshell.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/codeshell.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/codeshell.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/codeshell.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/cogvlm.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/cogvlm.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/cogvlm.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/cogvlm.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/cohere2-iswa.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/cohere2-iswa.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/cohere2-iswa.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/cohere2-iswa.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/command-r.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/command-r.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/command-r.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/command-r.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/dbrx.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/dbrx.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/dbrx.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/dbrx.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/deci.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/deci.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/deci.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/deci.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/deepseek.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/deepseek.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/deepseek.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/deepseek.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/deepseek2.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/deepseek2.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/deepseek2.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/deepseek2.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/delta-net-base.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/delta-net-base.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/delta-net-base.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/delta-net-base.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/dots1.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/dots1.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/dots1.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/dots1.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/dream.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/dream.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/dream.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/dream.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/ernie4-5-moe.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/ernie4-5-moe.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/ernie4-5-moe.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/ernie4-5-moe.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/ernie4-5.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/ernie4-5.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/ernie4-5.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/ernie4-5.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/eurobert.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/eurobert.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/eurobert.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/eurobert.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/exaone-moe.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/exaone-moe.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/exaone-moe.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/exaone-moe.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/exaone.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/exaone.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/exaone.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/exaone.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/exaone4.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/exaone4.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/exaone4.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/exaone4.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/falcon-h1.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/falcon-h1.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/falcon-h1.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/falcon-h1.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/falcon.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/falcon.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/falcon.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/falcon.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/gemma-embedding.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/gemma-embedding.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/gemma-embedding.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/gemma-embedding.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/gemma.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/gemma.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/gemma.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/gemma.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/gemma2-iswa.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/gemma2-iswa.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/gemma2-iswa.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/gemma2-iswa.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/gemma3.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/gemma3.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/gemma3.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/gemma3.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/gemma3n-iswa.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/gemma3n-iswa.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/gemma3n-iswa.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/gemma3n-iswa.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/glm4-moe.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/glm4-moe.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/glm4-moe.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/glm4-moe.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/glm4.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/glm4.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/glm4.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/glm4.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/gpt2.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/gpt2.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/gpt2.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/gpt2.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/gptneox.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/gptneox.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/gptneox.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/gptneox.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/granite-hybrid.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/granite-hybrid.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/granite-hybrid.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/granite-hybrid.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/granite.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/granite.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/granite.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/granite.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/grok.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/grok.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/grok.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/grok.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/grovemoe.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/grovemoe.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/grovemoe.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/grovemoe.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/hunyuan-dense.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/hunyuan-dense.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/hunyuan-dense.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/hunyuan-dense.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/hunyuan-moe.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/hunyuan-moe.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/hunyuan-moe.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/hunyuan-moe.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/internlm2.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/internlm2.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/internlm2.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/internlm2.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/jais.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/jais.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/jais.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/jais.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/jais2.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/jais2.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/jais2.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/jais2.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/jamba.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/jamba.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/jamba.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/jamba.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/kimi-linear.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/kimi-linear.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/kimi-linear.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/kimi-linear.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/lfm2.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/lfm2.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/lfm2.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/lfm2.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/llada-moe.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/llada-moe.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/llada-moe.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/llada-moe.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/llada.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/llada.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/llada.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/llada.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/llama-iswa.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/llama-iswa.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/llama-iswa.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/llama-iswa.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/llama.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/llama.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/llama.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/llama.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/maincoder.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/maincoder.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/maincoder.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/maincoder.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/mamba-base.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/mamba-base.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/mamba-base.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/mamba-base.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/mamba.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/mamba.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/mamba.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/mamba.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/mimo2-iswa.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/mimo2-iswa.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/mimo2-iswa.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/mimo2-iswa.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/minicpm3.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/minicpm3.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/minicpm3.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/minicpm3.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/minimax-m2.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/minimax-m2.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/minimax-m2.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/minimax-m2.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/mistral3.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/mistral3.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/mistral3.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/mistral3.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/modern-bert.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/modern-bert.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/modern-bert.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/modern-bert.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/mpt.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/mpt.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/mpt.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/mpt.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/nemotron-h.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/nemotron-h.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/nemotron-h.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/nemotron-h.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/nemotron.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/nemotron.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/nemotron.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/nemotron.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/neo-bert.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/neo-bert.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/neo-bert.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/neo-bert.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/olmo.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/olmo.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/olmo.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/olmo.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/olmo2.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/olmo2.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/olmo2.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/olmo2.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/olmoe.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/olmoe.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/olmoe.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/olmoe.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/openai-moe-iswa.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/openai-moe-iswa.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/openai-moe-iswa.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/openai-moe-iswa.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/openelm.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/openelm.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/openelm.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/openelm.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/orion.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/orion.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/orion.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/orion.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/paddleocr.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/paddleocr.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/paddleocr.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/paddleocr.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/pangu-embedded.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/pangu-embedded.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/pangu-embedded.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/pangu-embedded.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/phi2.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/phi2.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/phi2.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/phi2.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/phi3.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/phi3.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/phi3.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/phi3.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/plamo.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/plamo.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/plamo.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/plamo.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/plamo2.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/plamo2.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/plamo2.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/plamo2.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/plamo3.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/plamo3.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/plamo3.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/plamo3.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/plm.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/plm.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/plm.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/plm.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/qwen.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/qwen.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/qwen2.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen2.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen2.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/qwen2.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/qwen2moe.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen2moe.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen2moe.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/qwen2moe.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/qwen2vl.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen2vl.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen2vl.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/qwen2vl.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/qwen3.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen3.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen3.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/qwen3.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/qwen35.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen35.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen35.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/qwen35.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/qwen35moe.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen35moe.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen35moe.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/qwen35moe.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/qwen3moe.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen3moe.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen3moe.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/qwen3moe.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/qwen3next.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen3next.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen3next.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/qwen3next.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/qwen3vl-moe.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen3vl-moe.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen3vl-moe.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/qwen3vl-moe.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/qwen3vl.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen3vl.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/qwen3vl.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/qwen3vl.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/refact.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/refact.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/refact.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/refact.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/rnd1.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/rnd1.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/rnd1.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/rnd1.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/rwkv6-base.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/rwkv6-base.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/rwkv6-base.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/rwkv6-base.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/rwkv6.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/rwkv6.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/rwkv6.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/rwkv6.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/rwkv6qwen2.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/rwkv6qwen2.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/rwkv6qwen2.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/rwkv6qwen2.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/rwkv7-base.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/rwkv7-base.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/rwkv7-base.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/rwkv7-base.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/rwkv7.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/rwkv7.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/rwkv7.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/rwkv7.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/seed-oss.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/seed-oss.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/seed-oss.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/seed-oss.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/smallthinker.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/smallthinker.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/smallthinker.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/smallthinker.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/smollm3.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/smollm3.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/smollm3.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/smollm3.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/stablelm.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/stablelm.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/stablelm.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/stablelm.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/starcoder.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/starcoder.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/starcoder.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/starcoder.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/starcoder2.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/starcoder2.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/starcoder2.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/starcoder2.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/step35-iswa.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/step35-iswa.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/step35-iswa.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/step35-iswa.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/t5-dec.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/t5-dec.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/t5-dec.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/t5-dec.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/t5-enc.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/t5-enc.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/t5-enc.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/t5-enc.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/wavtokenizer-dec.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/wavtokenizer-dec.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/wavtokenizer-dec.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/wavtokenizer-dec.cpp.o"
+},
+{
+  "directory": "/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/. -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/../include -I/Users/benkiev/code/Open-Chat/vendor/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -o CMakeFiles/llama.dir/models/xverse.cpp.o -c /Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/xverse.cpp",
+  "file": "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/src/models/xverse.cpp",
+  "output": "vendor/llama.cpp/src/CMakeFiles/llama.dir/models/xverse.cpp.o"
+}
+]
