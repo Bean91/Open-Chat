@@ -1,0 +1,4 @@
+#ifndef POSITIONAL_ENCODING_HPP
+#define POSITIONAL_ENCODING_HPP
+
+#endif
