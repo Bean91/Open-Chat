@@ -1,14 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/benkiev/code/Open-Chat/build/cmake_install.cmake",
-		"/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/cmake_install.cmake",
-		"/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/cmake_install.cmake",
-		"/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src/cmake_install.cmake",
-		"/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src/ggml-cpu/cmake_install.cmake",
-		"/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src/ggml-blas/cmake_install.cmake",
-		"/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/ggml/src/ggml-metal/cmake_install.cmake",
-		"/Users/benkiev/code/Open-Chat/build/vendor/llama.cpp/src/cmake_install.cmake"
+		"/Users/benkiev/code/Open-Chat/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

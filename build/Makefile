@@ -85,51 +85,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-.PHONY : list_install_components/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/opt/homebrew/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/opt/homebrew/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/benkiev/code/Open-Chat/build/CMakeFiles /Users/benkiev/code/Open-Chat/build//CMakeFiles/progress.marks
@@ -174,84 +129,6 @@ openchat/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/openchat.dir/build.make CMakeFiles/openchat.dir/build
 .PHONY : openchat/fast
 
-#=============================================================================
-# Target rules for targets named ggml-base
-
-# Build rule for target.
-ggml-base: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ggml-base
-.PHONY : ggml-base
-
-# fast build rule for target.
-ggml-base/fast:
-	$(MAKE) $(MAKESILENT) -f vendor/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/build.make vendor/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/build
-.PHONY : ggml-base/fast
-
-#=============================================================================
-# Target rules for targets named ggml
-
-# Build rule for target.
-ggml: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ggml
-.PHONY : ggml
-
-# fast build rule for target.
-ggml/fast:
-	$(MAKE) $(MAKESILENT) -f vendor/llama.cpp/ggml/src/CMakeFiles/ggml.dir/build.make vendor/llama.cpp/ggml/src/CMakeFiles/ggml.dir/build
-.PHONY : ggml/fast
-
-#=============================================================================
-# Target rules for targets named ggml-cpu
-
-# Build rule for target.
-ggml-cpu: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ggml-cpu
-.PHONY : ggml-cpu
-
-# fast build rule for target.
-ggml-cpu/fast:
-	$(MAKE) $(MAKESILENT) -f vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/build.make vendor/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/build
-.PHONY : ggml-cpu/fast
-
-#=============================================================================
-# Target rules for targets named ggml-blas
-
-# Build rule for target.
-ggml-blas: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ggml-blas
-.PHONY : ggml-blas
-
-# fast build rule for target.
-ggml-blas/fast:
-	$(MAKE) $(MAKESILENT) -f vendor/llama.cpp/ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/build.make vendor/llama.cpp/ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/build
-.PHONY : ggml-blas/fast
-
-#=============================================================================
-# Target rules for targets named ggml-metal
-
-# Build rule for target.
-ggml-metal: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ggml-metal
-.PHONY : ggml-metal
-
-# fast build rule for target.
-ggml-metal/fast:
-	$(MAKE) $(MAKESILENT) -f vendor/llama.cpp/ggml/src/ggml-metal/CMakeFiles/ggml-metal.dir/build.make vendor/llama.cpp/ggml/src/ggml-metal/CMakeFiles/ggml-metal.dir/build
-.PHONY : ggml-metal/fast
-
-#=============================================================================
-# Target rules for targets named llama
-
-# Build rule for target.
-llama: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 llama
-.PHONY : llama
-
-# fast build rule for target.
-llama/fast:
-	$(MAKE) $(MAKESILENT) -f vendor/llama.cpp/src/CMakeFiles/llama.dir/build.make vendor/llama.cpp/src/CMakeFiles/llama.dir/build
-.PHONY : llama/fast
-
 chat.o: chat.cpp.o
 .PHONY : chat.o
 
@@ -283,17 +160,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... install"
-	@echo "... install/local"
-	@echo "... install/strip"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... ggml"
-	@echo "... ggml-base"
-	@echo "... ggml-blas"
-	@echo "... ggml-cpu"
-	@echo "... ggml-metal"
-	@echo "... llama"
 	@echo "... openchat"
 	@echo "... chat.o"
 	@echo "... chat.i"

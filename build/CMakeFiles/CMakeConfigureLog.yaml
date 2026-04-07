@@ -38,6 +38,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/Wireshark.app/Contents/MacOS/"
       - "/usr/local/sbin/"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
     searched_directories:
       - "/Users/benkiev/.local/bin/uname"
       - "/opt/homebrew/bin/uname"
@@ -67,6 +68,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "message-v1"
@@ -114,6 +116,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/Wireshark.app/Contents/MacOS/"
       - "/usr/local/sbin/"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
     searched_directories:
       - "/Users/benkiev/.local/bin/gmake"
       - "/opt/homebrew/bin/gmake"
@@ -133,6 +136,7 @@ events:
       - "/Library/Apple/usr/bin/gmake"
       - "/Applications/Wireshark.app/Contents/MacOS/gmake"
       - "/usr/local/sbin/gmake"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/gmake"
       - "/Users/benkiev/.local/bin/make"
       - "/opt/homebrew/bin/make"
       - "/opt/homebrew/sbin/make"
@@ -161,6 +165,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "find-v1"
@@ -206,6 +211,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/Wireshark.app/Contents/MacOS/"
       - "/usr/local/sbin/"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
     searched_directories:
       - "/Users/benkiev/.local/bin/cc"
       - "/opt/homebrew/bin/cc"
@@ -235,6 +241,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "find-v1"
@@ -281,6 +288,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "message-v1"
@@ -383,6 +391,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/Wireshark.app/Contents/MacOS/"
       - "/usr/local/sbin/"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
@@ -404,6 +413,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "find-v1"
@@ -443,6 +453,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/Wireshark.app/Contents/MacOS/"
       - "/usr/local/sbin/"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
@@ -464,6 +475,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "find-v1"
@@ -503,6 +515,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/Wireshark.app/Contents/MacOS/"
       - "/usr/local/sbin/"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
@@ -524,6 +537,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "find-v1"
@@ -563,6 +577,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/Wireshark.app/Contents/MacOS/"
       - "/usr/local/sbin/"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
@@ -584,6 +599,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "find-v1"
@@ -623,6 +639,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/Wireshark.app/Contents/MacOS/"
       - "/usr/local/sbin/"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
@@ -644,6 +661,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "find-v1"
@@ -683,6 +701,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/Wireshark.app/Contents/MacOS/"
       - "/usr/local/sbin/"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
@@ -704,6 +723,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "find-v1"
@@ -743,6 +763,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/Wireshark.app/Contents/MacOS/"
       - "/usr/local/sbin/"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
     searched_directories:
       - "/usr/bin/objcopy"
       - "/Users/benkiev/.local/bin/objcopy"
@@ -762,6 +783,7 @@ events:
       - "/Library/Apple/usr/bin/objcopy"
       - "/Applications/Wireshark.app/Contents/MacOS/objcopy"
       - "/usr/local/sbin/objcopy"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/objcopy"
     found: false
     search_context:
       ENV{PATH}:
@@ -783,6 +805,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "find-v1"
@@ -822,6 +845,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/Wireshark.app/Contents/MacOS/"
       - "/usr/local/sbin/"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
     searched_directories:
       - "/usr/bin/readelf"
       - "/Users/benkiev/.local/bin/readelf"
@@ -841,6 +865,7 @@ events:
       - "/Library/Apple/usr/bin/readelf"
       - "/Applications/Wireshark.app/Contents/MacOS/readelf"
       - "/usr/local/sbin/readelf"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/readelf"
     found: false
     search_context:
       ENV{PATH}:
@@ -862,6 +887,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "find-v1"
@@ -901,6 +927,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/Wireshark.app/Contents/MacOS/"
       - "/usr/local/sbin/"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
       - "/Users/benkiev/.local/bin/dlltool"
@@ -920,6 +947,7 @@ events:
       - "/Library/Apple/usr/bin/dlltool"
       - "/Applications/Wireshark.app/Contents/MacOS/dlltool"
       - "/usr/local/sbin/dlltool"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/dlltool"
     found: false
     search_context:
       ENV{PATH}:
@@ -941,6 +969,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "find-v1"
@@ -980,6 +1009,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/Wireshark.app/Contents/MacOS/"
       - "/usr/local/sbin/"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
     searched_directories:
       - "/usr/bin/addr2line"
       - "/Users/benkiev/.local/bin/addr2line"
@@ -999,6 +1029,7 @@ events:
       - "/Library/Apple/usr/bin/addr2line"
       - "/Applications/Wireshark.app/Contents/MacOS/addr2line"
       - "/usr/local/sbin/addr2line"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/addr2line"
     found: false
     search_context:
       ENV{PATH}:
@@ -1020,6 +1051,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "find-v1"
@@ -1059,6 +1091,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/Wireshark.app/Contents/MacOS/"
       - "/usr/local/sbin/"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
     searched_directories:
       - "/usr/bin/tapi"
       - "/Users/benkiev/.local/bin/tapi"
@@ -1078,6 +1111,7 @@ events:
       - "/Library/Apple/usr/bin/tapi"
       - "/Applications/Wireshark.app/Contents/MacOS/tapi"
       - "/usr/local/sbin/tapi"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/tapi"
     found: false
     search_context:
       ENV{PATH}:
@@ -1099,6 +1133,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "find-v1"
@@ -1148,6 +1183,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "find-v1"
@@ -1194,6 +1230,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
   -
     kind: "message-v1"
@@ -1296,6 +1333,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Applications/Wireshark.app/Contents/MacOS/"
       - "/usr/local/sbin/"
+      - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
     searched_directories:
       - "/Users/benkiev/.local/bin/install_name_tool"
       - "/opt/homebrew/bin/install_name_tool"
@@ -1325,6 +1363,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/Applications/Wireshark.app/Contents/MacOS"
         - "/usr/local/sbin"
+        - "/Users/benkiev/.vscode-oss/extensions/vadimcn.vscode-lldb-1.12.1/bin"
         - "/Users/benkiev/.local/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
   -
@@ -1336,8 +1375,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-JG9hhP"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-JG9hhP"
+      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-AoU3ma"
+      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-AoU3ma"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -1350,18 +1389,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-JG9hhP'
+        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-AoU3ma'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_942e2/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_942e2.dir/build.make CMakeFiles/cmTC_942e2.dir/build
-        Building C object CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bbbe2/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bbbe2.dir/build.make CMakeFiles/cmTC_bbbe2.dir/build
+        Building C object CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin25.1.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-JG9hhP -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-JG9hhP -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-AoU3ma -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-AoU3ma -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin25.1.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1374,13 +1413,13 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_942e2
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_942e2.dir/link.txt --verbose=1
+        Linking C executable cmTC_bbbe2
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbbe2.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin25.1.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_942e2 -L/usr/local/lib -v CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_bbbe2 -L/usr/local/lib -v CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 10:14:01 Jan  9 2026
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1393,7 +1432,7 @@ events:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/cc  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o -o cmTC_942e2
+        /usr/bin/cc  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o -o cmTC_bbbe2
         
       exitCode: 0
   -
@@ -1437,18 +1476,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-JG9hhP']
+        ignore line: [Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-AoU3ma']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_942e2/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_942e2.dir/build.make CMakeFiles/cmTC_942e2.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bbbe2/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bbbe2.dir/build.make CMakeFiles/cmTC_bbbe2.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-JG9hhP -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-JG9hhP -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-AoU3ma -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-AoU3ma -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin25.1.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1461,13 +1500,13 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_942e2]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_942e2.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_bbbe2]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbbe2.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_942e2 -L/usr/local/lib -v CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_bbbe2 -L/usr/local/lib -v CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1484,10 +1523,10 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_942e2] ==> ignore
+          arg [cmTC_bbbe2] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_942e2.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_bbbe2.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
@@ -1530,8 +1569,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BDCnTv"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BDCnTv"
+      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-MleHtK"
+      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-MleHtK"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1545,19 +1584,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BDCnTv'
+        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-MleHtK'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4bf49/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4bf49.dir/build.make CMakeFiles/cmTC_4bf49.dir/build
-        Building CXX object CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0ab96/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0ab96.dir/build.make CMakeFiles/cmTC_0ab96.dir/build
+        Building CXX object CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin25.1.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BDCnTv -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BDCnTv -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-MleHtK -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-MleHtK -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin25.1.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1571,13 +1610,13 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_4bf49
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bf49.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_0ab96
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ab96.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin25.1.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4bf49 -L/usr/local/lib -v CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_0ab96 -L/usr/local/lib -v CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 10:14:01 Jan  9 2026
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1590,7 +1629,7 @@ events:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4bf49
+        /usr/bin/c++  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0ab96
         
       exitCode: 0
   -
@@ -1636,19 +1675,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BDCnTv']
+        ignore line: [Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-MleHtK']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4bf49/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4bf49.dir/build.make CMakeFiles/cmTC_4bf49.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0ab96/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0ab96.dir/build.make CMakeFiles/cmTC_0ab96.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BDCnTv -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BDCnTv -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-MleHtK -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-MleHtK -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin25.1.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1662,13 +1701,13 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_4bf49]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bf49.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_0ab96]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ab96.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4bf49 -L/usr/local/lib -v CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_0ab96 -L/usr/local/lib -v CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1685,10 +1724,10 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_4bf49] ==> ignore
+          arg [cmTC_0ab96] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_4bf49.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_0ab96.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1723,2033 +1762,4 @@ events:
       will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
       LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
       TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/FindGit.cmake:111 (find_program)"
-      - "vendor/llama.cpp/cmake/build-info.cmake:7 (find_package)"
-      - "vendor/llama.cpp/CMakeLists.txt:120 (include)"
-    mode: "program"
-    variable: "GIT_EXECUTABLE"
-    description: "Git command line client"
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "git"
-    candidate_directories:
-      - "/Users/benkiev/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Users/benkiev/emsdk/"
-      - "/Users/benkiev/emsdk/upstream/emscripten/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/pmk/env/global/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Applications/Wireshark.app/Contents/MacOS/"
-      - "/usr/local/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/"
-      - "/usr/local/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/"
-      - "/usr/bin/"
-      - "/usr/sbin/"
-      - "/usr/"
-      - "/bin/"
-      - "/sbin/"
-      - "/usr/X11R6/bin/"
-      - "/usr/X11R6/sbin/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/bin/"
-      - "/usr/pkg/sbin/"
-      - "/usr/pkg/"
-      - "/opt/bin/"
-      - "/opt/sbin/"
-      - "/opt/"
-      - "/sw/bin/"
-      - "/sw/sbin/"
-      - "/sw/"
-      - "/opt/local/bin/"
-      - "/opt/local/sbin/"
-      - "/opt/local/"
-      - "/Users/benkiev/Applications/"
-      - "/Applications/"
-      - "/Applications/Xcode.app/Contents/Applications/"
-      - "/Applications/Xcode.app/Contents/Developer/Applications/"
-    searched_directories:
-      - "/Users/benkiev/.local/bin/git"
-      - "/opt/homebrew/bin/git"
-      - "/opt/homebrew/sbin/git"
-      - "/Users/benkiev/emsdk/git"
-      - "/Users/benkiev/emsdk/upstream/emscripten/git"
-      - "/usr/local/bin/git"
-      - "/System/Cryptexes/App/usr/bin/git"
-    found: "/usr/bin/git"
-    search_context:
-      ENV{PATH}:
-        - "/Users/benkiev/.local/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Users/benkiev/emsdk"
-        - "/Users/benkiev/emsdk/upstream/emscripten"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/pmk/env/global/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Applications/Wireshark.app/Contents/MacOS"
-        - "/usr/local/sbin"
-        - "/Users/benkiev/.local/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_APPBUNDLE_PATH:
-        - "/Users/benkiev/Applications"
-        - "/Applications"
-        - "/Applications/Xcode.app/Contents/Applications"
-        - "/Applications/Xcode.app/Contents/Developer/Applications"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
-      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:61 (_cmake_find_compiler)"
-      - "vendor/llama.cpp/ggml/CMakeLists.txt:2 (project)"
-    mode: "program"
-    variable: "CMAKE_ASM_COMPILER"
-    description: "ASM compiler"
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "/usr/bin/cc"
-    candidate_directories:
-      - "/usr/bin/"
-    found: "/usr/bin/cc"
-    search_context:
-      ENV{PATH}:
-        - "/Users/benkiev/.local/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Users/benkiev/emsdk"
-        - "/Users/benkiev/emsdk/upstream/emscripten"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/pmk/env/global/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Applications/Wireshark.app/Contents/MacOS"
-        - "/usr/local/sbin"
-        - "/Users/benkiev/.local/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_APPBUNDLE_PATH:
-        - "/Users/benkiev/Applications"
-        - "/Applications"
-        - "/Applications/Xcode.app/Contents/Applications"
-        - "/Applications/Xcode.app/Contents/Developer/Applications"
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1309 (message)"
-      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "vendor/llama.cpp/ggml/CMakeLists.txt:2 (project)"
-    message: |
-      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
-      Apple clang version 17.0.0 (clang-1700.6.4.2)
-      Target: arm64-apple-darwin25.1.0
-      Thread model: posix
-      InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1296 (message)"
-      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "vendor/llama.cpp/ggml/CMakeLists.txt:2 (project)"
-    message: |
-      Checking whether the ASM compiler is AppleClang using "--version" matched "(Apple (clang|LLVM) version)":
-      Apple clang version 17.0.0 (clang-1700.6.4.2)
-      Target: arm64-apple-darwin25.1.0
-      Thread model: posix
-      InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-  -
-    kind: "find-v1"
-    backtrace:
-      - "vendor/llama.cpp/ggml/CMakeLists.txt:10 (find_program)"
-    mode: "program"
-    variable: "GIT_EXE"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "git"
-      - "git.exe"
-    candidate_directories:
-      - "/Users/benkiev/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Users/benkiev/emsdk/"
-      - "/Users/benkiev/emsdk/upstream/emscripten/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/pmk/env/global/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Applications/Wireshark.app/Contents/MacOS/"
-      - "/usr/local/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/"
-      - "/usr/local/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/"
-      - "/usr/bin/"
-      - "/usr/sbin/"
-      - "/usr/"
-      - "/bin/"
-      - "/sbin/"
-      - "/usr/X11R6/bin/"
-      - "/usr/X11R6/sbin/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/bin/"
-      - "/usr/pkg/sbin/"
-      - "/usr/pkg/"
-      - "/opt/bin/"
-      - "/opt/sbin/"
-      - "/opt/"
-      - "/sw/bin/"
-      - "/sw/sbin/"
-      - "/sw/"
-      - "/opt/local/bin/"
-      - "/opt/local/sbin/"
-      - "/opt/local/"
-      - "/Users/benkiev/Applications/"
-      - "/Applications/"
-      - "/Applications/Xcode.app/Contents/Applications/"
-      - "/Applications/Xcode.app/Contents/Developer/Applications/"
-    searched_directories:
-      - "/Users/benkiev/.local/bin/git"
-      - "/opt/homebrew/bin/git"
-      - "/opt/homebrew/sbin/git"
-      - "/Users/benkiev/emsdk/git"
-      - "/Users/benkiev/emsdk/upstream/emscripten/git"
-      - "/usr/local/bin/git"
-      - "/System/Cryptexes/App/usr/bin/git"
-    found: "/usr/bin/git"
-    search_context:
-      ENV{PATH}:
-        - "/Users/benkiev/.local/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Users/benkiev/emsdk"
-        - "/Users/benkiev/emsdk/upstream/emscripten"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/pmk/env/global/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Applications/Wireshark.app/Contents/MacOS"
-        - "/usr/local/sbin"
-        - "/Users/benkiev/.local/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_APPBUNDLE_PATH:
-        - "/Users/benkiev/Applications"
-        - "/Applications"
-        - "/Applications/Xcode.app/Contents/Applications"
-        - "/Applications/Xcode.app/Contents/Developer/Applications"
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
-      - "/opt/homebrew/share/cmake/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
-      - "/opt/homebrew/share/cmake/Modules/FindThreads.cmake:226 (_threads_check_libc)"
-      - "vendor/llama.cpp/ggml/CMakeLists.txt:285 (find_package)"
-    checks:
-      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-LWxGfS"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-LWxGfS"
-    cmakeVariables:
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "CMAKE_HAVE_LIBC_PTHREAD"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-LWxGfS'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a5daa/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a5daa.dir/build.make CMakeFiles/cmTC_a5daa.dir/build
-        Building C object CMakeFiles/cmTC_a5daa.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu11 -arch arm64 -MD -MT CMakeFiles/cmTC_a5daa.dir/src.c.o -MF CMakeFiles/cmTC_a5daa.dir/src.c.o.d -o CMakeFiles/cmTC_a5daa.dir/src.c.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-LWxGfS/src.c
-        Linking C executable cmTC_a5daa
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5daa.dir/link.txt --verbose=1
-        /usr/bin/cc  -arch arm64 CMakeFiles/cmTC_a5daa.dir/src.c.o -o cmTC_a5daa
-        
-      exitCode: 0
-  -
-    kind: "find-v1"
-    backtrace:
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:69 (find_program)"
-    mode: "program"
-    variable: "GGML_CCACHE_FOUND"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "ccache"
-    candidate_directories:
-      - "/Users/benkiev/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Users/benkiev/emsdk/"
-      - "/Users/benkiev/emsdk/upstream/emscripten/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/pmk/env/global/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Applications/Wireshark.app/Contents/MacOS/"
-      - "/usr/local/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/"
-      - "/usr/local/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/"
-      - "/usr/bin/"
-      - "/usr/sbin/"
-      - "/usr/"
-      - "/bin/"
-      - "/sbin/"
-      - "/usr/X11R6/bin/"
-      - "/usr/X11R6/sbin/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/bin/"
-      - "/usr/pkg/sbin/"
-      - "/usr/pkg/"
-      - "/opt/bin/"
-      - "/opt/sbin/"
-      - "/opt/"
-      - "/sw/bin/"
-      - "/sw/sbin/"
-      - "/sw/"
-      - "/opt/local/bin/"
-      - "/opt/local/sbin/"
-      - "/opt/local/"
-      - "/Users/benkiev/Applications/"
-      - "/Applications/"
-      - "/Applications/Xcode.app/Contents/Applications/"
-      - "/Applications/Xcode.app/Contents/Developer/Applications/"
-    searched_directories:
-      - "/Users/benkiev/.local/bin/ccache"
-      - "/opt/homebrew/bin/ccache"
-      - "/opt/homebrew/sbin/ccache"
-      - "/Users/benkiev/emsdk/ccache"
-      - "/Users/benkiev/emsdk/upstream/emscripten/ccache"
-      - "/usr/local/bin/ccache"
-      - "/System/Cryptexes/App/usr/bin/ccache"
-      - "/usr/bin/ccache"
-      - "/bin/ccache"
-      - "/usr/sbin/ccache"
-      - "/sbin/ccache"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/ccache"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/ccache"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/ccache"
-      - "/opt/pmk/env/global/bin/ccache"
-      - "/Library/Apple/usr/bin/ccache"
-      - "/Applications/Wireshark.app/Contents/MacOS/ccache"
-      - "/usr/local/sbin/ccache"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/ccache"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/ccache"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/ccache"
-      - "/opt/homebrew/bin/ccache"
-      - "/opt/homebrew/sbin/ccache"
-      - "/opt/homebrew/ccache"
-      - "/usr/local/bin/ccache"
-      - "/usr/local/sbin/ccache"
-      - "/usr/local/ccache"
-      - "/usr/bin/ccache"
-      - "/usr/sbin/ccache"
-      - "/usr/ccache"
-      - "/bin/ccache"
-      - "/sbin/ccache"
-      - "/usr/X11R6/bin/ccache"
-      - "/usr/X11R6/sbin/ccache"
-      - "/usr/X11R6/ccache"
-      - "/usr/pkg/bin/ccache"
-      - "/usr/pkg/sbin/ccache"
-      - "/usr/pkg/ccache"
-      - "/opt/bin/ccache"
-      - "/opt/sbin/ccache"
-      - "/opt/ccache"
-      - "/sw/bin/ccache"
-      - "/sw/sbin/ccache"
-      - "/sw/ccache"
-      - "/opt/local/bin/ccache"
-      - "/opt/local/sbin/ccache"
-      - "/opt/local/ccache"
-      - "/Users/benkiev/Applications/ccache"
-      - "/Applications/ccache"
-      - "/Applications/Xcode.app/Contents/Applications/ccache"
-      - "/Applications/Xcode.app/Contents/Developer/Applications/ccache"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "/Users/benkiev/.local/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Users/benkiev/emsdk"
-        - "/Users/benkiev/emsdk/upstream/emscripten"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/pmk/env/global/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Applications/Wireshark.app/Contents/MacOS"
-        - "/usr/local/sbin"
-        - "/Users/benkiev/.local/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_APPBUNDLE_PATH:
-        - "/Users/benkiev/Applications"
-        - "/Applications"
-        - "/Applications/Xcode.app/Contents/Applications"
-        - "/Applications/Xcode.app/Contents/Developer/Applications"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:70 (find_program)"
-    mode: "program"
-    variable: "GGML_SCCACHE_FOUND"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "sccache"
-    candidate_directories:
-      - "/Users/benkiev/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Users/benkiev/emsdk/"
-      - "/Users/benkiev/emsdk/upstream/emscripten/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/pmk/env/global/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Applications/Wireshark.app/Contents/MacOS/"
-      - "/usr/local/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/"
-      - "/usr/local/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/"
-      - "/usr/bin/"
-      - "/usr/sbin/"
-      - "/usr/"
-      - "/bin/"
-      - "/sbin/"
-      - "/usr/X11R6/bin/"
-      - "/usr/X11R6/sbin/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/bin/"
-      - "/usr/pkg/sbin/"
-      - "/usr/pkg/"
-      - "/opt/bin/"
-      - "/opt/sbin/"
-      - "/opt/"
-      - "/sw/bin/"
-      - "/sw/sbin/"
-      - "/sw/"
-      - "/opt/local/bin/"
-      - "/opt/local/sbin/"
-      - "/opt/local/"
-      - "/Users/benkiev/Applications/"
-      - "/Applications/"
-      - "/Applications/Xcode.app/Contents/Applications/"
-      - "/Applications/Xcode.app/Contents/Developer/Applications/"
-    searched_directories:
-      - "/Users/benkiev/.local/bin/sccache"
-      - "/opt/homebrew/bin/sccache"
-      - "/opt/homebrew/sbin/sccache"
-      - "/Users/benkiev/emsdk/sccache"
-      - "/Users/benkiev/emsdk/upstream/emscripten/sccache"
-      - "/usr/local/bin/sccache"
-      - "/System/Cryptexes/App/usr/bin/sccache"
-      - "/usr/bin/sccache"
-      - "/bin/sccache"
-      - "/usr/sbin/sccache"
-      - "/sbin/sccache"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/sccache"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/sccache"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/sccache"
-      - "/opt/pmk/env/global/bin/sccache"
-      - "/Library/Apple/usr/bin/sccache"
-      - "/Applications/Wireshark.app/Contents/MacOS/sccache"
-      - "/usr/local/sbin/sccache"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/sccache"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/sccache"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sccache"
-      - "/opt/homebrew/bin/sccache"
-      - "/opt/homebrew/sbin/sccache"
-      - "/opt/homebrew/sccache"
-      - "/usr/local/bin/sccache"
-      - "/usr/local/sbin/sccache"
-      - "/usr/local/sccache"
-      - "/usr/bin/sccache"
-      - "/usr/sbin/sccache"
-      - "/usr/sccache"
-      - "/bin/sccache"
-      - "/sbin/sccache"
-      - "/usr/X11R6/bin/sccache"
-      - "/usr/X11R6/sbin/sccache"
-      - "/usr/X11R6/sccache"
-      - "/usr/pkg/bin/sccache"
-      - "/usr/pkg/sbin/sccache"
-      - "/usr/pkg/sccache"
-      - "/opt/bin/sccache"
-      - "/opt/sbin/sccache"
-      - "/opt/sccache"
-      - "/sw/bin/sccache"
-      - "/sw/sbin/sccache"
-      - "/sw/sccache"
-      - "/opt/local/bin/sccache"
-      - "/opt/local/sbin/sccache"
-      - "/opt/local/sccache"
-      - "/Users/benkiev/Applications/sccache"
-      - "/Applications/sccache"
-      - "/Applications/Xcode.app/Contents/Applications/sccache"
-      - "/Applications/Xcode.app/Contents/Developer/Applications/sccache"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "/Users/benkiev/.local/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Users/benkiev/emsdk"
-        - "/Users/benkiev/emsdk/upstream/emscripten"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/pmk/env/global/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Applications/Wireshark.app/Contents/MacOS"
-        - "/usr/local/sbin"
-        - "/Users/benkiev/.local/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_APPBUNDLE_PATH:
-        - "/Users/benkiev/Applications"
-        - "/Applications"
-        - "/Applications/Xcode.app/Contents/Applications"
-        - "/Applications/Xcode.app/Contents/Developer/Applications"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:61 (find_library)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    mode: "library"
-    variable: "ACCELERATE_FRAMEWORK"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "Accelerate"
-    candidate_directories:
-      - "/Users/benkiev/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Users/benkiev/emsdk/"
-      - "/Users/benkiev/emsdk/upstream/emscripten/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Apple/usr/bin/"
-      - "/usr/local/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-    found: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework"
-    search_context:
-      ENV{PATH}:
-        - "/Users/benkiev/.local/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Users/benkiev/emsdk"
-        - "/Users/benkiev/emsdk/upstream/emscripten"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/pmk/env/global/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Applications/Wireshark.app/Contents/MacOS"
-        - "/usr/local/sbin"
-        - "/Users/benkiev/.local/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:333 (try_compile)"
-      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:640 (_OPENMP_GET_FLAGS)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:76 (find_package)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    description: "Detecting C OpenMP compiler info"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-EjTF2u"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-EjTF2u"
-    cmakeVariables:
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-EjTF2u'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4a70b/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4a70b.dir/build.make CMakeFiles/cmTC_4a70b.dir/build
-        Building C object CMakeFiles/cmTC_4a70b.dir/OpenMPTryFlag.c.o
-        /usr/bin/cc   -Xclang -fopenmp -std=gnu11 -arch arm64 -MD -MT CMakeFiles/cmTC_4a70b.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_4a70b.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_4a70b.dir/OpenMPTryFlag.c.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-EjTF2u/OpenMPTryFlag.c
-        /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-EjTF2u/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
-            2 | #include <omp.h>
-              |          ^~~~~~~
-        1 error generated.
-        make[1]: *** [CMakeFiles/cmTC_4a70b.dir/OpenMPTryFlag.c.o] Error 1
-        make: *** [cmTC_4a70b/fast] Error 2
-        
-      exitCode: 2
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:425 (find_library)"
-      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:640 (_OPENMP_GET_FLAGS)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:76 (find_package)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    mode: "library"
-    variable: "OpenMP_libomp_LIBRARY"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "omp"
-      - "gomp"
-      - "iomp5"
-    candidate_directories:
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift/"
-      - "/Users/benkiev/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Users/benkiev/emsdk/"
-      - "/Users/benkiev/emsdk/upstream/emscripten/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Apple/usr/bin/"
-      - "/usr/local/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-    searched_directories:
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift/"
-      - "/Users/benkiev/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Users/benkiev/emsdk/"
-      - "/Users/benkiev/emsdk/upstream/emscripten/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Apple/usr/bin/"
-      - "/usr/local/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift/"
-      - "/Users/benkiev/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Users/benkiev/emsdk/"
-      - "/Users/benkiev/emsdk/upstream/emscripten/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Apple/usr/bin/"
-      - "/usr/local/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift/"
-      - "/Users/benkiev/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Users/benkiev/emsdk/"
-      - "/Users/benkiev/emsdk/upstream/emscripten/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Apple/usr/bin/"
-      - "/usr/local/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "/Users/benkiev/.local/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Users/benkiev/emsdk"
-        - "/Users/benkiev/emsdk/upstream/emscripten"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/pmk/env/global/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Applications/Wireshark.app/Contents/MacOS"
-        - "/usr/local/sbin"
-        - "/Users/benkiev/.local/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:333 (try_compile)"
-      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:640 (_OPENMP_GET_FLAGS)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:76 (find_package)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    description: "Detecting CXX OpenMP compiler info"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-So3ssP"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-So3ssP"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-So3ssP'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9152b/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9152b.dir/build.make CMakeFiles/cmTC_9152b.dir/build
-        Building CXX object CMakeFiles/cmTC_9152b.dir/OpenMPTryFlag.cpp.o
-        /usr/bin/c++   -Xclang -fopenmp -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_9152b.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_9152b.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_9152b.dir/OpenMPTryFlag.cpp.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-So3ssP/OpenMPTryFlag.cpp
-        /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-So3ssP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
-            2 | #include <omp.h>
-              |          ^~~~~~~
-        1 error generated.
-        make[1]: *** [CMakeFiles/cmTC_9152b.dir/OpenMPTryFlag.cpp.o] Error 1
-        make: *** [cmTC_9152b/fast] Error 2
-        
-      exitCode: 2
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:116 (check_cxx_compiler_flag)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    checks:
-      - "Performing Test GGML_COMPILER_SUPPORTS_FP16_FORMAT_I3E"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-5Igip8"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-5Igip8"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "GGML_COMPILER_SUPPORTS_FP16_FORMAT_I3E"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-5Igip8'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_61ead/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_61ead.dir/build.make CMakeFiles/cmTC_61ead.dir/build
-        Building CXX object CMakeFiles/cmTC_61ead.dir/src.cxx.o
-        /usr/bin/c++ -DGGML_COMPILER_SUPPORTS_FP16_FORMAT_I3E  -std=gnu++17 -arch arm64   -mfp16-format=ieee -MD -MT CMakeFiles/cmTC_61ead.dir/src.cxx.o -MF CMakeFiles/cmTC_61ead.dir/src.cxx.o.d -o CMakeFiles/cmTC_61ead.dir/src.cxx.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-5Igip8/src.cxx
-        clang++: error: unknown argument: '-mfp16-format=ieee'
-        make[1]: *** [CMakeFiles/cmTC_61ead.dir/src.cxx.o] Error 1
-        make: *** [cmTC_61ead/fast] Error 2
-        
-      exitCode: 2
-  -
-    kind: "try_run-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
-      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceRuns.cmake:97 (cmake_check_source_runs)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:156 (check_cxx_source_runs)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:170 (check_arm_feature)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    checks:
-      - "Performing Test GGML_MACHINE_SUPPORTS_dotprod"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-4fDTfc"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-4fDTfc"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "GGML_MACHINE_SUPPORTS_dotprod_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-4fDTfc'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d8966/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d8966.dir/build.make CMakeFiles/cmTC_d8966.dir/build
-        Building CXX object CMakeFiles/cmTC_d8966.dir/src.cxx.o
-        /usr/bin/c++ -DGGML_MACHINE_SUPPORTS_dotprod  -mcpu=native+dotprod -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_d8966.dir/src.cxx.o -MF CMakeFiles/cmTC_d8966.dir/src.cxx.o.d -o CMakeFiles/cmTC_d8966.dir/src.cxx.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-4fDTfc/src.cxx
-        Linking CXX executable cmTC_d8966
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8966.dir/link.txt --verbose=1
-        /usr/bin/c++  -mcpu=native+dotprod -arch arm64 CMakeFiles/cmTC_d8966.dir/src.cxx.o -o cmTC_d8966
-        
-      exitCode: 0
-    runResult:
-      variable: "GGML_MACHINE_SUPPORTS_dotprod_EXITCODE"
-      cached: true
-      stdout: |
-      stderr: |
-      exitCode: 0
-  -
-    kind: "try_run-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
-      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceRuns.cmake:97 (cmake_check_source_runs)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:156 (check_cxx_source_runs)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:171 (check_arm_feature)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    checks:
-      - "Performing Test GGML_MACHINE_SUPPORTS_i8mm"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BmuyZJ"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BmuyZJ"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "GGML_MACHINE_SUPPORTS_i8mm_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BmuyZJ'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dffd7/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_dffd7.dir/build.make CMakeFiles/cmTC_dffd7.dir/build
-        Building CXX object CMakeFiles/cmTC_dffd7.dir/src.cxx.o
-        /usr/bin/c++ -DGGML_MACHINE_SUPPORTS_i8mm  -mcpu=native+i8mm -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_dffd7.dir/src.cxx.o -MF CMakeFiles/cmTC_dffd7.dir/src.cxx.o.d -o CMakeFiles/cmTC_dffd7.dir/src.cxx.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BmuyZJ/src.cxx
-        Linking CXX executable cmTC_dffd7
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dffd7.dir/link.txt --verbose=1
-        /usr/bin/c++  -mcpu=native+i8mm -arch arm64 CMakeFiles/cmTC_dffd7.dir/src.cxx.o -o cmTC_dffd7
-        
-      exitCode: 0
-    runResult:
-      variable: "GGML_MACHINE_SUPPORTS_i8mm_EXITCODE"
-      cached: true
-      stdout: |
-      stderr: |
-      exitCode: 0
-  -
-    kind: "try_run-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
-      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceRuns.cmake:97 (cmake_check_source_runs)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:156 (check_cxx_source_runs)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:172 (check_arm_feature)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    checks:
-      - "Performing Test GGML_MACHINE_SUPPORTS_sve"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-K5AloA"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-K5AloA"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "GGML_MACHINE_SUPPORTS_sve_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-K5AloA'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ed5e6/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ed5e6.dir/build.make CMakeFiles/cmTC_ed5e6.dir/build
-        Building CXX object CMakeFiles/cmTC_ed5e6.dir/src.cxx.o
-        /usr/bin/c++ -DGGML_MACHINE_SUPPORTS_sve  -mcpu=native+sve -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_ed5e6.dir/src.cxx.o -MF CMakeFiles/cmTC_ed5e6.dir/src.cxx.o.d -o CMakeFiles/cmTC_ed5e6.dir/src.cxx.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-K5AloA/src.cxx
-        Linking CXX executable cmTC_ed5e6
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed5e6.dir/link.txt --verbose=1
-        /usr/bin/c++  -mcpu=native+sve -arch arm64 CMakeFiles/cmTC_ed5e6.dir/src.cxx.o -o cmTC_ed5e6
-        
-      exitCode: 0
-    runResult:
-      variable: "GGML_MACHINE_SUPPORTS_sve_EXITCODE"
-      cached: true
-      stdout: |
-      stderr: |
-        Illegal instruction
-      exitCode: "FAILED_TO_RUN"
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:161 (check_cxx_source_compiles)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:172 (check_arm_feature)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    checks:
-      - "Performing Test GGML_MACHINE_SUPPORTS_nosve"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-RIZ8sP"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-RIZ8sP"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "GGML_MACHINE_SUPPORTS_nosve"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-RIZ8sP'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e9e07/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e9e07.dir/build.make CMakeFiles/cmTC_e9e07.dir/build
-        Building CXX object CMakeFiles/cmTC_e9e07.dir/src.cxx.o
-        /usr/bin/c++ -DGGML_MACHINE_SUPPORTS_nosve  -mcpu=native+nosve -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_e9e07.dir/src.cxx.o -MF CMakeFiles/cmTC_e9e07.dir/src.cxx.o.d -o CMakeFiles/cmTC_e9e07.dir/src.cxx.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-RIZ8sP/src.cxx
-        Linking CXX executable cmTC_e9e07
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9e07.dir/link.txt --verbose=1
-        /usr/bin/c++  -mcpu=native+nosve -arch arm64 CMakeFiles/cmTC_e9e07.dir/src.cxx.o -o cmTC_e9e07
-        
-      exitCode: 0
-  -
-    kind: "try_run-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
-      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceRuns.cmake:97 (cmake_check_source_runs)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:156 (check_cxx_source_runs)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:173 (check_arm_feature)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    checks:
-      - "Performing Test GGML_MACHINE_SUPPORTS_sme"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-zreYtM"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-zreYtM"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "GGML_MACHINE_SUPPORTS_sme_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-zreYtM'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_38ca6/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_38ca6.dir/build.make CMakeFiles/cmTC_38ca6.dir/build
-        Building CXX object CMakeFiles/cmTC_38ca6.dir/src.cxx.o
-        /usr/bin/c++ -DGGML_MACHINE_SUPPORTS_sme  -mcpu=native+sme -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_38ca6.dir/src.cxx.o -MF CMakeFiles/cmTC_38ca6.dir/src.cxx.o.d -o CMakeFiles/cmTC_38ca6.dir/src.cxx.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-zreYtM/src.cxx
-        Linking CXX executable cmTC_38ca6
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38ca6.dir/link.txt --verbose=1
-        /usr/bin/c++  -mcpu=native+sme -arch arm64 CMakeFiles/cmTC_38ca6.dir/src.cxx.o -o cmTC_38ca6
-        
-      exitCode: 0
-    runResult:
-      variable: "GGML_MACHINE_SUPPORTS_sme_EXITCODE"
-      cached: true
-      stdout: |
-      stderr: |
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:236 (check_cxx_source_compiles)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    checks:
-      - "Performing Test HAVE_DOTPROD"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-RPKclJ"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-RPKclJ"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "HAVE_DOTPROD"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-RPKclJ'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7c4ec/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7c4ec.dir/build.make CMakeFiles/cmTC_7c4ec.dir/build
-        Building CXX object CMakeFiles/cmTC_7c4ec.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_DOTPROD  -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_7c4ec.dir/src.cxx.o -MF CMakeFiles/cmTC_7c4ec.dir/src.cxx.o.d -o CMakeFiles/cmTC_7c4ec.dir/src.cxx.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-RPKclJ/src.cxx
-        Linking CXX executable cmTC_7c4ec
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c4ec.dir/link.txt --verbose=1
-        /usr/bin/c++  -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -arch arm64 CMakeFiles/cmTC_7c4ec.dir/src.cxx.o -o cmTC_7c4ec
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:236 (check_cxx_source_compiles)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    checks:
-      - "Performing Test HAVE_SVE"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-Xv0cq3"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-Xv0cq3"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "HAVE_SVE"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-Xv0cq3'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f0bea/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f0bea.dir/build.make CMakeFiles/cmTC_f0bea.dir/build
-        Building CXX object CMakeFiles/cmTC_f0bea.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_SVE  -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_f0bea.dir/src.cxx.o -MF CMakeFiles/cmTC_f0bea.dir/src.cxx.o.d -o CMakeFiles/cmTC_f0bea.dir/src.cxx.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-Xv0cq3/src.cxx
-        /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-Xv0cq3/src.cxx:3:24: error: "Feature SVE is not defined"
-            3 |                     #  error "Feature SVE is not defined"
-              |                        ^
-        1 error generated.
-        make[1]: *** [CMakeFiles/cmTC_f0bea.dir/src.cxx.o] Error 1
-        make: *** [cmTC_f0bea/fast] Error 2
-        
-      exitCode: 2
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:236 (check_cxx_source_compiles)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    checks:
-      - "Performing Test HAVE_MATMUL_INT8"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-p2ZWuC"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-p2ZWuC"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "HAVE_MATMUL_INT8"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-p2ZWuC'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d0d93/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d0d93.dir/build.make CMakeFiles/cmTC_d0d93.dir/build
-        Building CXX object CMakeFiles/cmTC_d0d93.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_MATMUL_INT8  -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_d0d93.dir/src.cxx.o -MF CMakeFiles/cmTC_d0d93.dir/src.cxx.o.d -o CMakeFiles/cmTC_d0d93.dir/src.cxx.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-p2ZWuC/src.cxx
-        Linking CXX executable cmTC_d0d93
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0d93.dir/link.txt --verbose=1
-        /usr/bin/c++  -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -arch arm64 CMakeFiles/cmTC_d0d93.dir/src.cxx.o -o cmTC_d0d93
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:236 (check_cxx_source_compiles)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    checks:
-      - "Performing Test HAVE_FMA"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-vEVn5l"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-vEVn5l"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "HAVE_FMA"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-vEVn5l'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_55019/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_55019.dir/build.make CMakeFiles/cmTC_55019.dir/build
-        Building CXX object CMakeFiles/cmTC_55019.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_FMA  -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_55019.dir/src.cxx.o -MF CMakeFiles/cmTC_55019.dir/src.cxx.o.d -o CMakeFiles/cmTC_55019.dir/src.cxx.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-vEVn5l/src.cxx
-        Linking CXX executable cmTC_55019
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55019.dir/link.txt --verbose=1
-        /usr/bin/c++  -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -arch arm64 CMakeFiles/cmTC_55019.dir/src.cxx.o -o cmTC_55019
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:236 (check_cxx_source_compiles)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    checks:
-      - "Performing Test HAVE_FP16_VECTOR_ARITHMETIC"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-pYYG3u"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-pYYG3u"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "HAVE_FP16_VECTOR_ARITHMETIC"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-pYYG3u'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_de608/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_de608.dir/build.make CMakeFiles/cmTC_de608.dir/build
-        Building CXX object CMakeFiles/cmTC_de608.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_FP16_VECTOR_ARITHMETIC  -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_de608.dir/src.cxx.o -MF CMakeFiles/cmTC_de608.dir/src.cxx.o.d -o CMakeFiles/cmTC_de608.dir/src.cxx.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-pYYG3u/src.cxx
-        Linking CXX executable cmTC_de608
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de608.dir/link.txt --verbose=1
-        /usr/bin/c++  -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -arch arm64 CMakeFiles/cmTC_de608.dir/src.cxx.o -o cmTC_de608
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
-      - "vendor/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt:236 (check_cxx_source_compiles)"
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:445 (ggml_add_cpu_backend_variant_impl)"
-    checks:
-      - "Performing Test HAVE_SME"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-H6mTim"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-H6mTim"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "HAVE_SME"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-H6mTim'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_527c8/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_527c8.dir/build.make CMakeFiles/cmTC_527c8.dir/build
-        Building CXX object CMakeFiles/cmTC_527c8.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_SME  -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_527c8.dir/src.cxx.o -MF CMakeFiles/cmTC_527c8.dir/src.cxx.o.d -o CMakeFiles/cmTC_527c8.dir/src.cxx.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-H6mTim/src.cxx
-        Linking CXX executable cmTC_527c8
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_527c8.dir/link.txt --verbose=1
-        /usr/bin/c++  -U__ARM_FEATURE_SVE -mcpu=native+dotprod+i8mm+nosve+sme -arch arm64 CMakeFiles/cmTC_527c8.dir/src.cxx.o -o cmTC_527c8
-        
-      exitCode: 0
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/FindBLAS.cmake:389 (find_library)"
-      - "/opt/homebrew/share/cmake/Modules/FindBLAS.cmake:1262 (check_blas_libraries)"
-      - "vendor/llama.cpp/ggml/src/ggml-blas/CMakeLists.txt:9 (find_package)"
-    mode: "library"
-    variable: "BLAS_Accelerate_LIBRARY"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "Accelerate"
-    candidate_directories:
-      - "/Users/benkiev/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Users/benkiev/emsdk/"
-      - "/Users/benkiev/emsdk/upstream/emscripten/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Apple/usr/bin/"
-      - "/usr/local/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift/"
-    found: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework"
-    search_context:
-      ENV{PATH}:
-        - "/Users/benkiev/.local/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Users/benkiev/emsdk"
-        - "/Users/benkiev/emsdk/upstream/emscripten"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/pmk/env/global/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Applications/Wireshark.app/Contents/MacOS"
-        - "/usr/local/sbin"
-        - "/Users/benkiev/.local/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/CheckFunctionExists.cmake:167 (try_compile)"
-      - "/opt/homebrew/share/cmake/Modules/FindBLAS.cmake:413 (check_function_exists)"
-      - "/opt/homebrew/share/cmake/Modules/FindBLAS.cmake:1262 (check_blas_libraries)"
-      - "vendor/llama.cpp/ggml/src/ggml-blas/CMakeLists.txt:9 (find_package)"
-    checks:
-      - "Looking for dgemm_"
-    directories:
-      source: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BrgT3o"
-      binary: "/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BrgT3o"
-    cmakeVariables:
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/benkiev/code/Open-Chat/vendor/llama.cpp/cmake/"
-      CMAKE_OSX_ARCHITECTURES: ""
-      CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
-    buildResult:
-      variable: "BLAS_Accelerate_WORKS"
-      cached: true
-      stdout: |
-        Change Dir: '/Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BrgT3o'
-        
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7648c/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7648c.dir/build.make CMakeFiles/cmTC_7648c.dir/build
-        Building C object CMakeFiles/cmTC_7648c.dir/CheckFunctionExists.c.o
-        /usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -DCHECK_FUNCTION_EXISTS=dgemm_ -std=gnu11 -arch arm64 -MD -MT CMakeFiles/cmTC_7648c.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_7648c.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_7648c.dir/CheckFunctionExists.c.o -c /Users/benkiev/code/Open-Chat/build/CMakeFiles/CMakeScratch/TryCompile-BrgT3o/CheckFunctionExists.c
-        Linking C executable cmTC_7648c
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7648c.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dgemm_ -arch arm64 CMakeFiles/cmTC_7648c.dir/CheckFunctionExists.c.o -o cmTC_7648c  -framework Accelerate
-        
-      exitCode: 0
-  -
-    kind: "find-v1"
-    backtrace:
-      - "vendor/llama.cpp/ggml/src/ggml-metal/CMakeLists.txt:1 (find_library)"
-    mode: "library"
-    variable: "FOUNDATION_LIBRARY"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "Foundation"
-    candidate_directories:
-      - "/Users/benkiev/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Users/benkiev/emsdk/"
-      - "/Users/benkiev/emsdk/upstream/emscripten/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Apple/usr/bin/"
-      - "/usr/local/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-    found: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework"
-    search_context:
-      ENV{PATH}:
-        - "/Users/benkiev/.local/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Users/benkiev/emsdk"
-        - "/Users/benkiev/emsdk/upstream/emscripten"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/pmk/env/global/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Applications/Wireshark.app/Contents/MacOS"
-        - "/usr/local/sbin"
-        - "/Users/benkiev/.local/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "vendor/llama.cpp/ggml/src/ggml-metal/CMakeLists.txt:2 (find_library)"
-    mode: "library"
-    variable: "METAL_FRAMEWORK"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "Metal"
-    candidate_directories:
-      - "/Users/benkiev/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Users/benkiev/emsdk/"
-      - "/Users/benkiev/emsdk/upstream/emscripten/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Apple/usr/bin/"
-      - "/usr/local/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-    found: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Metal.framework"
-    search_context:
-      ENV{PATH}:
-        - "/Users/benkiev/.local/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Users/benkiev/emsdk"
-        - "/Users/benkiev/emsdk/upstream/emscripten"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/pmk/env/global/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Applications/Wireshark.app/Contents/MacOS"
-        - "/usr/local/sbin"
-        - "/Users/benkiev/.local/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "vendor/llama.cpp/ggml/src/ggml-metal/CMakeLists.txt:3 (find_library)"
-    mode: "library"
-    variable: "METALKIT_FRAMEWORK"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "MetalKit"
-    candidate_directories:
-      - "/Users/benkiev/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Users/benkiev/emsdk/"
-      - "/Users/benkiev/emsdk/upstream/emscripten/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Apple/usr/bin/"
-      - "/usr/local/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-    found: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/MetalKit.framework"
-    search_context:
-      ENV{PATH}:
-        - "/Users/benkiev/.local/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Users/benkiev/emsdk"
-        - "/Users/benkiev/emsdk/upstream/emscripten"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/pmk/env/global/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Applications/Wireshark.app/Contents/MacOS"
-        - "/usr/local/sbin"
-        - "/Users/benkiev/.local/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "vendor/llama.cpp/ggml/src/CMakeLists.txt:472 (find_library)"
-    mode: "library"
-    variable: "MATH_LIBRARY"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "m"
-    candidate_directories:
-      - "/Users/benkiev/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Users/benkiev/emsdk/"
-      - "/Users/benkiev/emsdk/upstream/emscripten/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Apple/usr/bin/"
-      - "/usr/local/sbin/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
-      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-    searched_directories:
-      - "/Users/benkiev/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Users/benkiev/emsdk/"
-      - "/Users/benkiev/emsdk/upstream/emscripten/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Apple/usr/bin/"
-      - "/usr/local/sbin/"
-    found: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/libm.tbd"
-    search_context:
-      ENV{PATH}:
-        - "/Users/benkiev/.local/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Users/benkiev/emsdk"
-        - "/Users/benkiev/emsdk/upstream/emscripten"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/pmk/env/global/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Applications/Wireshark.app/Contents/MacOS"
-        - "/usr/local/sbin"
-        - "/Users/benkiev/.local/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
 ...

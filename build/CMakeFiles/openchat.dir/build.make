@@ -95,12 +95,6 @@ openchat_EXTERNAL_OBJECTS =
 
 openchat: CMakeFiles/openchat.dir/chat.cpp.o
 openchat: CMakeFiles/openchat.dir/build.make
-openchat: bin/libllama.0.0.8475.dylib
-openchat: bin/libggml.0.9.8.dylib
-openchat: bin/libggml-cpu.0.9.8.dylib
-openchat: bin/libggml-blas.0.9.8.dylib
-openchat: bin/libggml-metal.0.9.8.dylib
-openchat: bin/libggml-base.0.9.8.dylib
 openchat: CMakeFiles/openchat.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable openchat"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/openchat.dir/link.txt --verbose=$(VERBOSE)
