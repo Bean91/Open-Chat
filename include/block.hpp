@@ -6,7 +6,9 @@
 
 namespace openchat {
     class block {
-
+        private:
+            
+        public:
     };
 }
 
