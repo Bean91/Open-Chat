@@ -53,6 +53,14 @@ namespace openchat {
                 }
                 return output;
             }
+
+            void changeOne(float d, size_t n_in, size_t n_out) {
+                this->weights[n_in][n_out] -= d;
+            }
+
+            void changeOne(float d, size_t n_in) {
+                this->biases[0][n_in] -= d;
+            }
     };
 }
 

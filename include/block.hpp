@@ -10,9 +10,9 @@ namespace openchat {
             neuralNetwork network;
             selfAttention attention;
         public:
-            void init() {
+            void init(size_t n_embd) {
                 this->network.init();
-                this->attention.init();
+                this->attention.init(n_embd);
             }
 
             void readFromFile(std::pair<std::vector<std::filesystem::path>, std::filesystem::path> input) {
@@ -26,7 +26,7 @@ namespace openchat {
             }
 
             block(std::vector<size_t> dimensions, size_t n_embd) : network(dimensions), attention(n_embd) {
-                this->init();
+                this->init(n_embd);
             }
 
             block(std::pair<std::vector<std::filesystem::path>, std::filesystem::path> input) {
