@@ -1,90 +1,109 @@
-#include "tokenizer.hpp"
+#include "../include/tokenizer.hpp"
 #include <filesystem>
 #include <fstream>
 #include <iostream>
 #include <map>
+#include <sstream>
 #include <string>
 #include <utility>
+#include <forward_list>
 
 namespace openchat {
-	int train_on_file(Tokenizer *tokenizer, std::filesystem::path filepath, int epochs = 100) {
-		std::map<std::pair<int, int>, int> frequency;
-	
-		std::ifstream training_file(filepath);
-	
-		std::string input;
-		std::string line_hold;
-	
-		while (std::getline(training_file, line_hold)) {
-			input += line_hold + "\n";
-		}
-	
-		for (int i = 0; i < epochs; i ++) {
-			frequency.clear();
-			std::vector<int> encoded_tokens = tokenizer->encode(input);
-			
-			for (size_t j = 0; j < encoded_tokens.size() - 1; j++) {
-				frequency[{encoded_tokens[j], encoded_tokens[j+1]}]++;
+	void combine_token(std::forward_list<int>& encoded_tokens, int first, int second, int k) {
+		auto start = encoded_tokens.begin();
+		auto end = encoded_tokens.end();
+		auto next = std::next(start);
+		while (next != end) {
+			if (*start == first && *next == second) {
+				*start = k;
+				next = encoded_tokens.erase_after(start);
+			} else {
+				start = next;
+				next++;
 			}
-			
-			if (frequency.empty()) break;
-			
-			std::pair<std::pair<int, int>, int> max_frequency = {{-1, -1}, -1};
+		}
+	}
 
-			for (const auto& [pair, count] : frequency) {
-				if (count > max_frequency.second) {
-					std::string candidate = tokenizer->get_vocab().at(pair.first) + 
-											tokenizer->get_vocab().at(pair.second);
-     
-					bool exists = false;
-					const std::vector<std::string>& v = tokenizer->get_vocab();
-					for (const std::string& s : v) {
-						if (s == candidate) {
-							exists = true;
-							break;
-						}
-					}
-					
-					if (!exists) {
-						max_frequency.second = count;
-						max_frequency.first = pair;
+	int train_on_string(tokenizer *tokenizer, std::string input, int epochs = 100) {
+		std::forward_list<int> encoded_tokens = tokenizer->encode(input);
+		for (int i = 0; i < epochs; i++) {
+			std::map<std::pair<int, int>, int> frequency;
+
+			if (!encoded_tokens.empty()) {
+				auto current = encoded_tokens.begin();
+				auto next = std::next(current);
+			
+				while (next != encoded_tokens.end()) {
+					frequency[{*current,*next}]++;
+					current++;
+					next++;
+				}
+			}
+
+			std::pair<int, int> best_pair = {-1, -1};
+			int max_count = 0;
+
+			for (auto const &[pair, count] : frequency) {
+				std::string combo = tokenizer->get_vocab()->at(pair.first)+tokenizer->get_vocab()->at(pair.second);
+				if (std::find(tokenizer->get_vocab()->begin(), tokenizer->get_vocab()->end(), combo) != tokenizer->get_vocab()->end()) break;
+				if (count > max_count) {
+					if (pair.first >= 0 && pair.second >= 0) {
+						max_count = count;
+						best_pair = pair;
 					}
 				}
 			}
-			
-			std::string new_token = tokenizer->get_vocab().at(max_frequency.first.first) + 
-				tokenizer->get_vocab().at(max_frequency.first.second);
+
+			if (max_count > 0 && best_pair.first != -1) {
+				std::string new_token = tokenizer->get_vocab()->at(best_pair.first) + tokenizer->get_vocab()->at(best_pair.second);
+				combine_token(encoded_tokens, best_pair.first, best_pair.second, tokenizer->get_vocab()->size());
+				std::cout << new_token << std::endl;
 				tokenizer->add_token(new_token);
-		}
-	
+			} else {
+				break;
+			}
+
+			if (tokenizer->get_vocab()->size() % 32 == 0) std::cout << "Vocab size: " << tokenizer->get_vocab()->size() << std::endl;
+        }
 		return 0;
 	}
 }
 
 int main() {
-	std::filesystem::path code_directory = "../training_corpus/code";
-	std::filesystem::path english_directory = "../training_corpus/english";
-	std::filesystem::path french_directory = "../training_corpus/french";
+	std::filesystem::path directory = "../training_corpus/english";
+	openchat::tokenizer tokenizer = openchat::tokenizer("vocab.txt");
 
-	std::array<std::filesystem::path*, 3> directories = {&code_directory, &english_directory, &french_directory};
+	std::string corpus = "";
 
-	openchat::Tokenizer tokenizer = openchat::Tokenizer("vocab.txt");
+	if (std::filesystem::exists(directory) && std::filesystem::is_directory(directory)) {
+		std::cout << "Reading directory: " << directory << std::endl;
+		int fcounter = 0;
 
-	for (std::filesystem::path * directory : directories) {
-		if (std::filesystem::exists(*directory) && std::filesystem::is_directory(*directory)) {
-			std::cout << *directory << std::endl;
-			int fcounter = 0;
+		for (const std::filesystem::directory_entry &entry : std::filesystem::directory_iterator(directory)) {
+			std::ifstream training_file(entry.path());
+			if (training_file.is_open()) {
+				std::stringstream buffer;
+				buffer << training_file.rdbuf();
 
-			for (const std::filesystem::directory_entry& entry : std::filesystem::directory_iterator(*directory)) {
-				train_on_file(&tokenizer, entry.path(), 10);
+				corpus += buffer.str() + " ";
+
 				fcounter++;
-				if (fcounter % 50 == 0) std::cout << "File number: " << fcounter << std::endl;
-				if (fcounter >= 500) break;
+				if (fcounter % 32 == 0) std::cout << "Loaded " << fcounter << " files..." << std::endl;
 			}
+
+			if (fcounter >= 256) break;
 		}
+
+		if (!corpus.empty()) {
+			std::cout << "Starting global training. Total characters: " << corpus.length() << std::endl;
+			openchat::train_on_string(&tokenizer, corpus, 1951);
+		}
+	} else {
+		std::cerr << "Directory not found: " << directory << std::endl;
 	}
-	
+
+	std::cout << "Training complete. Final Vocab Size: " << tokenizer.get_vocab()->size() << std::endl;
 	tokenizer.save_tokens();
-	
+
 	return 0;
 }

@@ -19,12 +19,16 @@ namespace openchat {
                 }
             }
 
-            void readFromFile(std::filesystem::path input) {
-
+            void readFromFile(std::vector<std::filesystem::path> input) {
+                for (size_t i = 0; i < input.size(); i++) {
+                    this->network.push_back(layer(input[i]));
+                }
             }
 
-            void saveToFile(std::filesystem::path input) {
-
+            void saveToFile(std::vector<std::filesystem::path> input) {
+                for (size_t i = 0; i < input.size(); i++) {
+                    this->network[i].saveToFile(input[i]);
+                }
             }
 
             neuralNetwork(std::vector<size_t> dimensions) {
@@ -33,7 +37,7 @@ namespace openchat {
                 this->init();
             }
 
-            neuralNetwork(std::filesystem::path input) {
+            neuralNetwork(std::vector<std::filesystem::path> input) {
                 this->readFromFile(input);
             }
 
@@ -44,6 +48,8 @@ namespace openchat {
 
                 return input;
             }
+
+            neuralNetwork() {}
     };
 }
 

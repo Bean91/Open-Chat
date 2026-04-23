@@ -64,10 +64,12 @@ CMAKE_BINARY_DIR = /Users/benkiev/code/Open-Chat/build
 
 # The main recursive "all" target.
 all: CMakeFiles/openchat.dir/all
+all: CMakeFiles/tokentrainer.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/openchat.dir/codegen
+codegen: CMakeFiles/tokentrainer.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/openchat.dir/clean
+clean: CMakeFiles/tokentrainer.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -109,6 +112,38 @@ CMakeFiles/openchat.dir/codegen:
 CMakeFiles/openchat.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/openchat.dir/build.make CMakeFiles/openchat.dir/clean
 .PHONY : CMakeFiles/openchat.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tokentrainer.dir
+
+# All Build rule for target.
+CMakeFiles/tokentrainer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokentrainer.dir/build.make CMakeFiles/tokentrainer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokentrainer.dir/build.make CMakeFiles/tokentrainer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles --progress-num=3,4 "Built target tokentrainer"
+.PHONY : CMakeFiles/tokentrainer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tokentrainer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/benkiev/code/Open-Chat/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tokentrainer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/benkiev/code/Open-Chat/build/CMakeFiles 0
+.PHONY : CMakeFiles/tokentrainer.dir/rule
+
+# Convenience name for target.
+tokentrainer: CMakeFiles/tokentrainer.dir/rule
+.PHONY : tokentrainer
+
+# codegen rule for target.
+CMakeFiles/tokentrainer.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokentrainer.dir/build.make CMakeFiles/tokentrainer.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/benkiev/code/Open-Chat/build/CMakeFiles --progress-num=3,4 "Finished codegen for target tokentrainer"
+.PHONY : CMakeFiles/tokentrainer.dir/codegen
+
+# clean rule for target.
+CMakeFiles/tokentrainer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokentrainer.dir/build.make CMakeFiles/tokentrainer.dir/clean
+.PHONY : CMakeFiles/tokentrainer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

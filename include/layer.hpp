@@ -1,18 +1,35 @@
 #ifndef LAYER_HPP
 #define LAYER_HPP
 
-#include <utility>
-#include <vector>
 #include "utility.hpp"
+#include <filesystem>
+#include <random>
 
 namespace openchat {
     class layer {
         private:
             utility::matrix weights;
             utility::matrix biases;
+            std::default_random_engine generator;
+            std::normal_distribution<float> initDist;
 
           public:
-            void init() {
+            void init(size_t n_in) {
+                initDist = std::normal_distribution<float>(0, n_in);
+
+                for (size_t i = 0; i < this->weights.cols; i++) {
+                    this->biases[0][i] = initDist(this->generator);
+                    for (size_t j = 0; j < this->weights.rows; j++) {
+                        this->weights[j][i] = initDist(this->generator);
+                    }
+                }
+            }
+
+            void readFromFile(std::filesystem::path input) {
+
+            }
+
+            void saveToFile(std::filesystem::path input) {
 
             }
 
@@ -20,21 +37,22 @@ namespace openchat {
                 this->weights = utility::matrix(n_in, n_out);
                 this->biases = utility::matrix(1, n_out);
 
-                this->init();
+                this->init(n_in);
             }
-            
-            layer(utility::matrix weights, utility::matrix biases) {
-                this->weights = weights;
-                this->biases = biases;
+
+            layer(std::filesystem::path input) {
+                this->readFromFile(input);
             }
 
             std::vector<float> feedForward(std::vector<float> input) {
                 utility::matrix i (1, input.size());
                 i.data = input;
-                return utility::add(utility::dot(i, this->weights), this->biases).data;
+                std::vector<float> output = utility::add(utility::dot(i, this->weights), this->biases).data;
+                for (size_t i = 0; i < output.size(); i++) {
+                    output[i] = utility::relu(output[i]);
+                }
+                return output;
             }
-
-            std::pair<utility::matrix *, utility::matrix *> getData() { return {&this->weights, &this->biases}; }
     };
 }
 

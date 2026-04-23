@@ -105,8 +105,8 @@ namespace openchat {
             return 1.0f / (1.0f + std::exp(-x));
         }
 
-        float gelu(float x) {
-            return 0.5f * x * (1.0f + std::tanh(std::sqrt(2.0f / M_PI) * (x + 0.044715f * std::pow(x, 3))));
+        float relu(float x) {
+            return std::max(0.0f, x);
         }
     };
 }

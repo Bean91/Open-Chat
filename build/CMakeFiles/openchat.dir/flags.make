@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/benkiev/code/Open-Chat/include
 
-CXX_FLAGSarm64 = -std=c++23 -arch arm64
+CXX_FLAGSarm64 = -g -std=c++23 -arch arm64
 
-CXX_FLAGS = -std=c++23 -arch arm64
+CXX_FLAGS = -g -std=c++23 -arch arm64
 

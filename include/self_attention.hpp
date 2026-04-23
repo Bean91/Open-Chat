@@ -3,6 +3,7 @@
 
 #include "utility.hpp"
 #include <filesystem>
+#include <random>
 
 namespace openchat {
     class selfAttention {
@@ -14,9 +15,21 @@ namespace openchat {
             utility::matrix q;
             utility::matrix k;
             utility::matrix v;
-        public:
-            void init() {
 
+            std::default_random_engine generator;
+            std::normal_distribution<float> initDist;
+
+          public:
+            void init(size_t n_embd) {
+                initDist = std::normal_distribution<float>(0, n_embd);
+
+                for (size_t i = 0; i < n_embd; i++) {
+                    for (size_t j = 0; j < n_embd; j++) {
+                        this->wq[j][i] = initDist(this->generator);
+                        this->wk[j][i] = initDist(this->generator);
+                        this->wv[j][i] = initDist(this->generator);
+                    }
+                }
             }
 
             void readFromFile(std::filesystem::path input) {
@@ -27,14 +40,12 @@ namespace openchat {
 
             }
 
-            selfAttention(utility::matrix wq, utility::matrix wk, utility::matrix wv) {
-                this->wq = wq;
-                this->wk = wk;
-                this->wv = wv;
-            }
+            selfAttention(size_t n_embd) {
+                this->wq = utility::matrix(n_embd, n_embd);
+                this->wk = utility::matrix(n_embd, n_embd);
+                this->wv = utility::matrix(n_embd, n_embd);
 
-            selfAttention(std::filesystem::path input) {
-              this->readFromFile(input);
+                this->init(n_embd);
             }
 
             utility::matrix attention(utility::matrix X, size_t d) {
@@ -56,6 +67,8 @@ namespace openchat {
                 else if (mat == 'k') wk[row][col] -= diff;
                 else if (mat == 'v') wv[row][col] -= diff;
             }
+
+            selfAttention () {}
     };
 }
 

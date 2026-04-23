@@ -1,12 +1,15 @@
 cmake_minimum_required(VERSION 3.20)
 project(openchat)
 
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+if(NOT CMAKE_BUILD_TYPE)
+  set(CMAKE_BUILD_TYPE "Debug" CACHE STRING "Choose the type of build" FORCE)
+endif()
+
 add_executable(openchat chat.cpp)
+add_executable(tokentrainer training/tokenizer_trainer.cpp)
+# add_executable(modeltrainer training/model_trainer.cpp)
 
-set_target_properties(openchat PROPERTIES
-    CXX_STANDARD 23
-    CXX_STANDARD_REQUIRED ON
-    CXX_EXTENSIONS OFF
-)
-
-target_include_directories(openchat PRIVATE ${CMAKE_SOURCE_DIR}/include)
+include_directories(${CMAKE_SOURCE_DIR}/include)

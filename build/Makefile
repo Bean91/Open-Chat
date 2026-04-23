@@ -129,6 +129,19 @@ openchat/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/openchat.dir/build.make CMakeFiles/openchat.dir/build
 .PHONY : openchat/fast
 
+#=============================================================================
+# Target rules for targets named tokentrainer
+
+# Build rule for target.
+tokentrainer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tokentrainer
+.PHONY : tokentrainer
+
+# fast build rule for target.
+tokentrainer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokentrainer.dir/build.make CMakeFiles/tokentrainer.dir/build
+.PHONY : tokentrainer/fast
+
 chat.o: chat.cpp.o
 .PHONY : chat.o
 
@@ -153,6 +166,30 @@ chat.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/openchat.dir/build.make CMakeFiles/openchat.dir/chat.cpp.s
 .PHONY : chat.cpp.s
 
+training/tokenizer_trainer.o: training/tokenizer_trainer.cpp.o
+.PHONY : training/tokenizer_trainer.o
+
+# target to build an object file
+training/tokenizer_trainer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokentrainer.dir/build.make CMakeFiles/tokentrainer.dir/training/tokenizer_trainer.cpp.o
+.PHONY : training/tokenizer_trainer.cpp.o
+
+training/tokenizer_trainer.i: training/tokenizer_trainer.cpp.i
+.PHONY : training/tokenizer_trainer.i
+
+# target to preprocess a source file
+training/tokenizer_trainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokentrainer.dir/build.make CMakeFiles/tokentrainer.dir/training/tokenizer_trainer.cpp.i
+.PHONY : training/tokenizer_trainer.cpp.i
+
+training/tokenizer_trainer.s: training/tokenizer_trainer.cpp.s
+.PHONY : training/tokenizer_trainer.s
+
+# target to generate assembly for a file
+training/tokenizer_trainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokentrainer.dir/build.make CMakeFiles/tokentrainer.dir/training/tokenizer_trainer.cpp.s
+.PHONY : training/tokenizer_trainer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... openchat"
+	@echo "... tokentrainer"
 	@echo "... chat.o"
 	@echo "... chat.i"
 	@echo "... chat.s"
+	@echo "... training/tokenizer_trainer.o"
+	@echo "... training/tokenizer_trainer.i"
+	@echo "... training/tokenizer_trainer.s"
 .PHONY : help
 
 
