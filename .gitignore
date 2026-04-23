@@ -1,0 +1,5 @@
+training_corpus/
+compile_commands.json
+venv/
+.cache/
+build/
