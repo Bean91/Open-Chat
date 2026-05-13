@@ -4,6 +4,7 @@
 #include <cstddef>
 #include <filesystem>
 #include <random>
+#include <fstream>
 #include "utility.hpp"
 
 namespace openchat {
@@ -31,8 +32,19 @@ namespace openchat {
 
             }
 
-            void saveToFile(std::filesystem::path input) {
+            void saveToFile(std::filesystem::path output) {
+                std::ofstream outFile(output, std::ios::binary);
 
+                if (outFile.is_open()) {
+                    outFile.write(reinterpret_cast<const char *>(&this->n_tok), sizeof(size_t));
+                    outFile.write(reinterpret_cast<const char *>(&this->n_embd), sizeof(size_t));
+
+                    for (size_t i = 0; i < this->n_tok; i++) {
+                        float * tok = this->table[i];
+                        outFile.write(reinterpret_cast<const char*>(tok), this->n_embd * sizeof(float));
+                    }
+                    outFile.close();
+                }
             }
 
             embedder(size_t n_tok, size_t n_embd) {

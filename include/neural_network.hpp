@@ -53,7 +53,7 @@ namespace openchat {
                 this->network[layer].changeOne(d, n_in, n_out);
             }
 
-            void changeOne(size_t layer,float d, size_t n_in) {
+            void changeOne(size_t layer, float d, size_t n_in) {
                 this->network[layer].changeOne(d, n_in);
             }
 

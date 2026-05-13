@@ -62,10 +62,10 @@ namespace openchat {
                     this->v); 
             }
 
-            void update(char mat, size_t row, size_t col, float diff) {
-                if (mat == 'q') wq[row][col] -= diff;
-                else if (mat == 'k') wk[row][col] -= diff;
-                else if (mat == 'v') wv[row][col] -= diff;
+            void changeOne(char mat, size_t row, size_t col, float d) {
+                if (mat == 'q') wq[row][col] -= d;
+                else if (mat == 'k') wk[row][col] -= d;
+                else if (mat == 'v') wv[row][col] -= d;
             }
 
             selfAttention () {}

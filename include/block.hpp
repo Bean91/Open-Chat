@@ -32,6 +32,18 @@ namespace openchat {
             block(std::pair<std::vector<std::filesystem::path>, std::filesystem::path> input) {
                 this->readFromFile(input);
             }
+
+            void changeOne(char mat, size_t row, size_t col, float d) {
+                this->attention.changeOne(mat, row, col, d);
+            }
+
+            void changeOne(size_t layer, float d, size_t n_in, size_t n_out) {
+                this->network.changeOne(layer, d, n_in, n_out);
+            }
+
+            void changeOne(size_t layer,float d, size_t n_in) {
+                this->network.changeOne(layer, d, n_in);
+            }
     };
 }
 
