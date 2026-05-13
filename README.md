@@ -33,17 +33,17 @@ An embedding is a long vector of floats (decimals) for a certain token. The poin
 
 ### Positional Encoding
 
-$$ {PE}{(pos, 2i)} = \sin\left(\frac{pos}{10000^{2i/d_{model}}}\right) $$
-$$ {PE}{(pos, 2i+1)} = \cos\left(\frac{pos}{10000^{2i/d_{model}}}\right) $$
+$ \text{PE}{(pos, 2i)} = \sin\left(\frac{pos}{10000^{2i/d_{model}}}\right) $
+$ \text{PE}{(pos, 2i+1)} = \cos\left(\frac{pos}{10000^{2i/d_{model}}}\right) $
 The math equations represent a value added to each vector embedding. These values represent the position of each dimension for the model. This enables the model to understand word order. $pos$ represents the location in the phrase of each embedding. $i$ represents the individual dimensions.
 
 ### Self-Attention
 
-Each embedding is stacked into a large matrix denoted by $X$. It then goes through this crucial layer in all transformers, self-attention. Self-attention consists of three learned weight matrices, $W_q$, $W_k$, and $W_v$. These three matrices are dot-product-ed with $X$ to create $Q$, $K$, and $V$ (all matrices with same dimensions as $X$). $$ \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V $$ The output from this formula gives the new $X$ matrix for the next layers.
+Each embedding is stacked into a large matrix denoted by $X$. It then goes through this crucial layer in all transformers, self-attention. Self-attention consists of three learned weight matrices, $W_q$, $W_k$, and $W_v$. These three matrices are dot-product-ed with $X$ to create $Q$, $K$, and $V$ (all matrices with same dimensions as $X$). $ \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V $ The output from this formula gives the new $X$ matrix for the next layers.
 
 ### Feed-Forward Neural Network (FNN)
 
-The $X$ matrix get fed into a standard feed-forward neural network. For each layer, there is a weight matrix $W\_l$ and a bias vector (1D matrix) $B_l$. $$ X \bullet W_l + B_l $$ The formula for each layer is shown above. This gets passed through every layer.
+The $X$ matrix get fed into a standard feed-forward neural network. For each layer, there is a weight matrix $W\_l$ and a bias vector (1D matrix) $B_l$. $ X \bullet W_l + B_l $ The formula for each layer is shown above. This gets passed through every layer.
 
 ### Output Layer
 
