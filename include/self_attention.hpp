@@ -40,10 +40,14 @@ namespace openchat {
 
                 if (inFile.is_open()) {
                     inFile.read(reinterpret_cast<char *>(&this->n_embd), sizeof(size_t));
-                    
-                    inFile.read(reinterpret_cast<char *>(&this->q.data), this->q.rows * this->q.cols * sizeof(float));
-                    inFile.read(reinterpret_cast<char *>(&this->q.data), this->k.rows * this->k.cols * sizeof(float));
-                    inFile.read(reinterpret_cast<char *>(&this->q.data), this->v.rows * this->v.cols * sizeof(float));
+
+                    this->wq = utility::matrix(this->n_embd, this->n_embd);
+                    this->wk = utility::matrix(this->n_embd, this->n_embd);
+                    this->wv = utility::matrix(this->n_embd, this->n_embd);
+
+                    inFile.read(reinterpret_cast<char *>(this->wq.data.data()), this->wq.rows * this->wq.cols * sizeof(float));
+                    inFile.read(reinterpret_cast<char *>(this->wk.data.data()), this->wk.rows * this->wk.cols * sizeof(float));
+                    inFile.read(reinterpret_cast<char *>(this->wv.data.data()), this->wv.rows * this->wv.cols * sizeof(float));
 
                     inFile.close();
                 }
@@ -55,9 +59,9 @@ namespace openchat {
                 if (outFile.is_open()) {
                     outFile.write(reinterpret_cast<const char *>(&this->n_embd), sizeof(size_t));
 
-                    outFile.write(reinterpret_cast<const char *>(&this->q.data), this->q.rows * this->q.cols * sizeof(float));
-                    outFile.write(reinterpret_cast<const char *>(&this->q.data), this->k.rows * this->k.cols * sizeof(float));
-                    outFile.write(reinterpret_cast<const char *>(&this->q.data), this->v.rows * this->v.cols * sizeof(float));
+                    outFile.write(reinterpret_cast<const char *>(this->wq.data.data()), this->wq.rows * this->wq.cols * sizeof(float));
+                    outFile.write(reinterpret_cast<const char *>(this->wk.data.data()), this->wk.rows * this->wk.cols * sizeof(float));
+                    outFile.write(reinterpret_cast<const char *>(this->wv.data.data()), this->wv.rows * this->wv.cols * sizeof(float));
 
                     outFile.close();
                 }
