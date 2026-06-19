@@ -23,15 +23,25 @@ static void encode(openchat::tokenizer& tokenizer) {
 static void decode(openchat::tokenizer& tokenizer) {
     std::forward_list<int> input;
     auto tail = input.before_begin();
-    int num;
-    int temp;
+    int num = 0;
+    int temp = 0;
 
     std::cout << "Please enter how many tokens you wish to decode: ";
-    std::cin >> num;
+    if (!(std::cin >> num) || num < 0) {
+        std::cin.clear();
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        std::cerr << "Invalid token count." << std::endl;
+        return;
+    }
 
     std::cout << "Please enter the token IDs:" << std::endl;
     for (int i = 0; i < num; i++) {
-        std::cin >> temp;
+        if (!(std::cin >> temp)) {
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::cerr << "Invalid token ID input." << std::endl;
+            return;
+        }
         tail = input.insert_after(tail, temp);
     }
     std::cout << "Decoded string:" << std::endl
