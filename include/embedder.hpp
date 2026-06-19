@@ -29,7 +29,19 @@ namespace openchat {
             }
 
             void readFromFile(std::filesystem::path input) {
+                std::ifstream inFile(input, std::ios::binary);
 
+                if (inFile.is_open()) {
+                    inFile.read(reinterpret_cast<char *>(&this->n_tok), sizeof(size_t));
+                    inFile.read(reinterpret_cast<char *>(&this->n_embd),sizeof(size_t));
+
+                    this->table = utility::matrix(this->n_tok, this->n_embd);
+
+                    for (size_t i = 0; i < this->n_tok; i++) {
+                      inFile.read(reinterpret_cast<char *>(this->table[i]), this->n_embd * sizeof(float));
+                    }
+                    inFile.close();
+                }
             }
 
             void saveToFile(std::filesystem::path output) {

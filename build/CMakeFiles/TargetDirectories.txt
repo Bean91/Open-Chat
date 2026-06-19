@@ -1,4 +1,0 @@
-/Users/benkiev/code/Open-Chat/build/CMakeFiles/openchat.dir
-/Users/benkiev/code/Open-Chat/build/CMakeFiles/tokentrainer.dir
-/Users/benkiev/code/Open-Chat/build/CMakeFiles/edit_cache.dir
-/Users/benkiev/code/Open-Chat/build/CMakeFiles/rebuild_cache.dir

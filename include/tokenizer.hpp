@@ -1,9 +1,9 @@
 #ifndef TOKENIZER_HPP
 #define TOKENIZER_HPP
 
+#include <filesystem>
 #include <forward_list>
 #include <fstream>
-#include <filesystem>
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -24,9 +24,11 @@ namespace openchat {
                     
                     std::ifstream vocab_file(this->path);
                     std::string token_hold;
-                    
+
                     while (getline(vocab_file, token_hold)) {
-                        vocab.push_back(token_hold);
+                        if (!token_hold.empty() && token_hold.find_first_not_of(" \t\n\r\f\v") != std::string::npos) {
+                            vocab.push_back(token_hold);
+                        }
                     }
                 }
             }

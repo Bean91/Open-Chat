@@ -12,7 +12,7 @@ namespace openchat {
         public:
             void init(size_t n_embd) {
                 this->network.init();
-                this->attention.init(n_embd);
+                this->attention.init();
             }
 
             void readFromFile(std::pair<std::vector<std::filesystem::path>, std::filesystem::path> input) {
