@@ -1,9 +1,9 @@
 #ifndef TOKENIZER_HPP
 #define TOKENIZER_HPP
 
+#include <filesystem>
 #include <forward_list>
 #include <fstream>
-#include <filesystem>
 #include <string>
 #include <vector>
 #include <algorithm>

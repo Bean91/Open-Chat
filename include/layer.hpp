@@ -3,6 +3,7 @@
 
 #include "utility.hpp"
 #include <filesystem>
+#include <fstream>
 #include <random>
 
 namespace openchat {
@@ -26,11 +27,25 @@ namespace openchat {
             }
 
             void readFromFile(std::filesystem::path input) {
+                std::ifstream inFile(input, std::ios::binary);
 
+                if (inFile.is_open()) {
+                    inFile.read(reinterpret_cast<char *>(&this->weights.data), this->weights.rows * this->weights.cols * sizeof(float));
+                    inFile.read(reinterpret_cast<char *>(&this->biases.data), this->biases.rows * this->biases.cols * sizeof(float));
+
+                    inFile.close();
+                }
             }
 
-            void saveToFile(std::filesystem::path input) {
+            void saveToFile(std::filesystem::path output) {
+                std::ofstream outFile(output, std::ios::binary);
 
+                if (outFile.is_open()) {
+                    outFile.write(reinterpret_cast<const char *>(&this->weights.data), this->weights.rows * this->weights.cols * sizeof(float));
+                    outFile.write(reinterpret_cast<const char *>(&this->biases.data), this->biases.rows * this->biases.cols * sizeof(float));
+
+                    outFile.close();
+                }
             }
 
             layer(size_t n_in, size_t n_out) {

@@ -142,6 +142,19 @@ tokentrainer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokentrainer.dir/build.make CMakeFiles/tokentrainer.dir/build
 .PHONY : tokentrainer/fast
 
+#=============================================================================
+# Target rules for targets named tokentester
+
+# Build rule for target.
+tokentester: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tokentester
+.PHONY : tokentester
+
+# fast build rule for target.
+tokentester/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokentester.dir/build.make CMakeFiles/tokentester.dir/build
+.PHONY : tokentester/fast
+
 chat.o: chat.cpp.o
 .PHONY : chat.o
 
@@ -165,6 +178,30 @@ chat.s: chat.cpp.s
 chat.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/openchat.dir/build.make CMakeFiles/openchat.dir/chat.cpp.s
 .PHONY : chat.cpp.s
+
+dev_testing/tokenizer_tester.o: dev_testing/tokenizer_tester.cpp.o
+.PHONY : dev_testing/tokenizer_tester.o
+
+# target to build an object file
+dev_testing/tokenizer_tester.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokentester.dir/build.make CMakeFiles/tokentester.dir/dev_testing/tokenizer_tester.cpp.o
+.PHONY : dev_testing/tokenizer_tester.cpp.o
+
+dev_testing/tokenizer_tester.i: dev_testing/tokenizer_tester.cpp.i
+.PHONY : dev_testing/tokenizer_tester.i
+
+# target to preprocess a source file
+dev_testing/tokenizer_tester.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokentester.dir/build.make CMakeFiles/tokentester.dir/dev_testing/tokenizer_tester.cpp.i
+.PHONY : dev_testing/tokenizer_tester.cpp.i
+
+dev_testing/tokenizer_tester.s: dev_testing/tokenizer_tester.cpp.s
+.PHONY : dev_testing/tokenizer_tester.s
+
+# target to generate assembly for a file
+dev_testing/tokenizer_tester.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokentester.dir/build.make CMakeFiles/tokentester.dir/dev_testing/tokenizer_tester.cpp.s
+.PHONY : dev_testing/tokenizer_tester.cpp.s
 
 training/tokenizer_trainer.o: training/tokenizer_trainer.cpp.o
 .PHONY : training/tokenizer_trainer.o
@@ -199,10 +236,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... openchat"
+	@echo "... tokentester"
 	@echo "... tokentrainer"
 	@echo "... chat.o"
 	@echo "... chat.i"
 	@echo "... chat.s"
+	@echo "... dev_testing/tokenizer_tester.o"
+	@echo "... dev_testing/tokenizer_tester.i"
+	@echo "... dev_testing/tokenizer_tester.s"
 	@echo "... training/tokenizer_trainer.o"
 	@echo "... training/tokenizer_trainer.i"
 	@echo "... training/tokenizer_trainer.s"

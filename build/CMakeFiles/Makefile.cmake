@@ -58,4 +58,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/openchat.dir/DependInfo.cmake"
   "CMakeFiles/tokentrainer.dir/DependInfo.cmake"
+  "CMakeFiles/tokentester.dir/DependInfo.cmake"
   )

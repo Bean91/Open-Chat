@@ -24,7 +24,7 @@ namespace openchat {
             }
         };
         
-        matrix transpose(const matrix& input) {
+        inline matrix transpose(const matrix& input) {
             matrix output(input.cols, input.rows);
             for (size_t i = 0; i < input.rows; i++) {
                 for (size_t j = 0; j < input.cols; j++) {
@@ -34,7 +34,7 @@ namespace openchat {
             return output;
         }
 
-        matrix add(const matrix& a, const matrix& b) {
+        inline matrix add(const matrix& a, const matrix& b) {
             if (a.cols != b.cols)
                 throw std::invalid_argument("Columns don't match!");
             if (a.rows != b.rows)
@@ -50,7 +50,7 @@ namespace openchat {
             return c;
         }
         
-        matrix dot(const matrix& a, const matrix& b) {
+        inline matrix dot(const matrix& a, const matrix& b) {
             if (a.cols != b.rows) throw std::invalid_argument("Inner dimensions don't match!");
             
             matrix c(a.rows, b.cols);
@@ -66,7 +66,7 @@ namespace openchat {
             return c;
         }        
         
-        matrix softmax(matrix a) {
+        inline matrix softmax(matrix a) {
             for (size_t i = 0; i < a.rows; i++) {
                 float max_val = a[i][0];
                 for (size_t j = 1; j < a.cols; j++) {
@@ -86,14 +86,14 @@ namespace openchat {
             return a;
         }
         
-        matrix scalar_mult(matrix a, float b) {
+        inline matrix scalar_mult(matrix a, float b) {
             for (size_t i = 0; i < a.data.size(); i++) {
                 a.data[i] *= b;
             }
             return a;
         }
         
-        matrix scalar_div(matrix a, float b) {
+        inline matrix scalar_div(matrix a, float b) {
             float inv_b = 1.0f / b;
             for (size_t i = 0; i < a.data.size(); i++) {
                 a.data[i] *= inv_b;
@@ -101,11 +101,11 @@ namespace openchat {
             return a;
         }
 
-        float sigmoid(float x) {
+        inline float sigmoid(float x) {
             return 1.0f / (1.0f + std::exp(-x));
         }
 
-        float relu(float x) {
+        inline float relu(float x) {
             return std::max(0.0f, x);
         }
     };
