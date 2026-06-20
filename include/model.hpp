@@ -19,6 +19,14 @@ namespace openchat {
             std::vector<block> blocks;
             
         public:
+            void init() {
+                this->embedder.init();
+
+                for (block& b : this->blocks) {
+                    b.init();
+                }
+            }
+
             model(std::pair<std::pair<std::filesystem::path, std::filesystem::path>, std::vector<std::pair<std::pair<std::filesystem::path, std::vector<std::filesystem::path>>, std::filesystem::path>>> inputFiles) : tokenizer(inputFiles.first.first, true), embedder(inputFiles.first.second) {
                 for (size_t i = 0; i < inputFiles.second.size(); i++) {
                     blocks.push_back(block(inputFiles.second[i]));
@@ -29,6 +37,8 @@ namespace openchat {
                 this->tokenizer = tokenizer;
                 this->embedder = embedder;
                 this->blocks = blocks;
+
+                this->init();
             }
 
             std::string forwardPass(std::string input) {
@@ -38,8 +48,9 @@ namespace openchat {
                 utility::matrix x = utility::matrix(std::distance(tokens.begin(), tokens.end()), embedder.getNEmbd());
                 int i = 0;
                 for (int token : tokens) {
-                    embedder.embed(token).assign(x[i], x[i] + embedder.getNEmbd());
-                    i++;
+                  std::vector<float> emb = embedder.embed(token);
+                  std::copy(emb.begin(), emb.end(), x[i]);
+                  i++;
                 }
                 
                 x = positionalEncoding(x).apply();

@@ -20,6 +20,8 @@ namespace openchat {
             void readFromFile(std::pair<std::pair<std::filesystem::path, std::vector<std::filesystem::path>>, std::filesystem::path> input) {
                 this->network.readFromFile(input.first);
                 this->attention.readFromFile(input.second);
+
+                this->n_embd = this->attention.getNEmbed();
             }
 
             void saveToFile(std::pair<std::pair<std::filesystem::path, std::vector<std::filesystem::path>>, std::filesystem::path> output) {
@@ -40,7 +42,8 @@ namespace openchat {
             utility::matrix feedForward(utility::matrix x) {
                 x = attention.attention(x);
                 for (int i = 0; i < x.rows; i++) {
-                    network.feedForward(std::vector<float>(x[i], x[i] + this->n_embd)).assign(x[i], x[i] + this->n_embd);
+                    std::vector<float> output = network.feedForward(std::vector<float>(x[i], x[i] + this->n_embd));
+                    std::copy(output.begin(), output.end(), x[i]);
                 }
 
                 return x;

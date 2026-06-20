@@ -91,6 +91,10 @@ namespace openchat {
                     this->v); 
             }
 
+            size_t getNEmbed() {
+                return this->n_embd;
+            }
+
             void changeOne(char mat, size_t row, size_t col, float d) {
                 if (mat == 'q') wq[row][col] -= d;
                 else if (mat == 'k') wk[row][col] -= d;
