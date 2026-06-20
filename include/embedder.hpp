@@ -81,6 +81,9 @@ namespace openchat {
             }
 
             std::vector<float> embed(int tok) {
+                if (tok < 0 || static_cast<size_t>(tok) >= this->n_tok) {
+                    throw std::out_of_range("Token index out of bounds");
+                }
                 std::vector<float> vec(this->table[tok], this->table[tok]+n_embd);
                 return vec;
             }

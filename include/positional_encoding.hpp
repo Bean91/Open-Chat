@@ -18,6 +18,7 @@ namespace openchat {
                 this->x = x;
                 this->n_in = x.rows;
                 this->n_embd = x.cols;
+                this->table = utility::matrix(this->n_in, this->n_embd);
 
                 for (size_t i = 0; i < this->n_in; i++) {
                     for (size_t j = 0; j < this->n_embd/2; j++) {
