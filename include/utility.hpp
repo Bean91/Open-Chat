@@ -66,25 +66,29 @@ namespace openchat {
             return c;
         }        
         
-        inline matrix softmax(matrix a) {
+        inline matrix softmax(matrix&& a) {
             for (size_t i = 0; i < a.rows; i++) {
-                float max_val = a[i][0];
+                float* row = a[i];
+                
+                float max_val = row[0];
                 for (size_t j = 1; j < a.cols; j++) {
-                    if (a[i][j] > max_val) max_val = a[i][j];
+                    if (row[j] > max_val) max_val = row[j];
                 }
-
+        
                 float sum = 0.0f;
                 for (size_t j = 0; j < a.cols; j++) {
-                    a[i][j] = std::exp(a[i][j] - max_val);
-                    sum += a[i][j];
+                    row[j] = std::exp(row[j] - max_val);
+                    sum += row[j];
                 }
                 
+                float inv_sum = (sum > 1e-9f) ? (1.0f / sum) : 0.0f;
                 for (size_t j = 0; j < a.cols; j++) {
-                    a[i][j] /= sum; 
+                    row[j] *= inv_sum;
                 }
             }
-            return a;
+            return std::move(a);
         }
+        
         
         inline matrix scalar_mult(matrix a, float b) {
             for (size_t i = 0; i < a.data.size(); i++) {

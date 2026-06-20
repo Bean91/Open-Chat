@@ -72,11 +72,15 @@ namespace openchat {
               this->readFromFile(input);
             }
 
+            size_t getNEmbd() {
+                return this->n_embd;
+            }
+
             void changeOne(size_t tok, size_t dim, float d) {
                 this->table[tok][dim] -= d;
             }
 
-            std::vector<float> embed(size_t tok) {
+            std::vector<float> embed(int tok) {
                 std::vector<float> vec(this->table[tok], this->table[tok]+n_embd);
                 return vec;
             }

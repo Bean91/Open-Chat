@@ -77,17 +77,17 @@ namespace openchat {
                 this->init();
             }
 
-            utility::matrix attention(utility::matrix X, size_t d) {
-                this->q = utility::dot(X, this->wq);
-                this->k = utility::dot(X, this->wk);
-                this->v = utility::dot(X, this->wv);
+            utility::matrix attention(utility::matrix x) {
+                this->q = utility::dot(x, this->wq);
+                this->k = utility::dot(x, this->wk);
+                this->v = utility::dot(x, this->wv);
                 
                 return utility::dot(
                     utility::softmax(
                         utility::scalar_div(
                             utility::dot(this->q, 
                             utility::transpose(this->k)), 
-                        std::sqrt(d))), 
+                        std::sqrt(n_embd))), 
                     this->v); 
             }
 
