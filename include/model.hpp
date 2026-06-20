@@ -66,10 +66,10 @@ namespace openchat {
 
                 float max = dist[0][0];
                 int token = 0;
-                for (int i = 0; i < dist.rows; i++) {
-                    if (dist[i][0] > max) {
-                        max = dist[i][0];
-                        token = i;
+                for (size_t j = 1; j < dist.cols; j++) {
+                    if (dist[0][j] > max) {
+                        max = dist[0][j];
+                        token = static_cast<int>(j);
                     }
                 }
 
