@@ -72,11 +72,18 @@ namespace openchat {
               this->readFromFile(input);
             }
 
+            size_t getNEmbd() {
+                return this->n_embd;
+            }
+
             void changeOne(size_t tok, size_t dim, float d) {
                 this->table[tok][dim] -= d;
             }
 
-            std::vector<float> embed(size_t tok) {
+            std::vector<float> embed(int tok) {
+                if (tok < 0 || static_cast<size_t>(tok) >= this->n_tok) {
+                    throw std::out_of_range("Token index out of bounds");
+                }
                 std::vector<float> vec(this->table[tok], this->table[tok]+n_embd);
                 return vec;
             }

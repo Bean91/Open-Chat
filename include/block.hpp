@@ -9,28 +9,44 @@ namespace openchat {
         private:
             neuralNetwork network;
             selfAttention attention;
+
+            size_t n_embd;
         public:
-            void init(size_t n_embd) {
+            void init() {
                 this->network.init();
                 this->attention.init();
             }
 
-            void readFromFile(std::pair<std::vector<std::filesystem::path>, std::filesystem::path> input) {
+            void readFromFile(std::pair<std::pair<std::filesystem::path, std::vector<std::filesystem::path>>, std::filesystem::path> input) {
                 this->network.readFromFile(input.first);
                 this->attention.readFromFile(input.second);
+
+                this->n_embd = this->attention.getNEmbed();
             }
 
-            void saveToFile(std::pair<std::vector<std::filesystem::path>, std::filesystem::path> input) {
-                this->network.saveToFile(input.first);
-                this->attention.saveToFile(input.second);
+            void saveToFile(std::pair<std::pair<std::filesystem::path, std::vector<std::filesystem::path>>, std::filesystem::path> output) {
+                this->network.saveToFile(output.first);
+                this->attention.saveToFile(output.second);
             }
 
             block(std::vector<size_t> dimensions, size_t n_embd) : network(dimensions), attention(n_embd) {
-                this->init(n_embd);
+                this->init();
+
+                this->n_embd = n_embd;
             }
 
-            block(std::pair<std::vector<std::filesystem::path>, std::filesystem::path> input) {
+            block(std::pair<std::pair<std::filesystem::path, std::vector<std::filesystem::path>>, std::filesystem::path> input) {
                 this->readFromFile(input);
+            }
+
+            utility::matrix feedForward(utility::matrix x) {
+                x = attention.attention(x);
+                for (int i = 0; i < x.rows; i++) {
+                    std::vector<float> output = network.feedForward(std::vector<float>(x[i], x[i] + this->n_embd));
+                    std::copy(output.begin(), output.end(), x[i]);
+                }
+
+                return x;
             }
 
             void changeOne(char mat, size_t row, size_t col, float d) {

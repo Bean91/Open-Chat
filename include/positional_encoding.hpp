@@ -10,14 +10,15 @@ namespace openchat {
             size_t n_embd;
             size_t n_in;
             utility::matrix table;
-            utility::matrix embd;
+            utility::matrix x;
         public:
             positionalEncoding() {}
 
-            positionalEncoding(utility::matrix embd) {
-                this->embd = embd;
-                this->n_in = embd.rows;
-                this->n_embd = embd.cols;
+            positionalEncoding(utility::matrix x) {
+                this->x = x;
+                this->n_in = x.rows;
+                this->n_embd = x.cols;
+                this->table = utility::matrix(this->n_in, this->n_embd);
 
                 for (size_t i = 0; i < this->n_in; i++) {
                     for (size_t j = 0; j < this->n_embd/2; j++) {
@@ -28,7 +29,7 @@ namespace openchat {
             }
 
             utility::matrix apply() {
-                return utility::add(embd, table);
+                return utility::add(x, table);
             }
     };
 }
