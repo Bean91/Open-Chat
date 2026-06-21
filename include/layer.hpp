@@ -81,11 +81,23 @@ namespace openchat {
                 return z;
             }
 
-            std::pair<utility::matrix, utility::matrix> backward(utility::matrix dZ) {
-                utility::matrix dW = utility::dot(utility::transpose(X), dZ);
-                utility::matrix dX = utility::dot(dZ, utility::transpose(this->weights));
+            std::pair<utility::matrix, std::pair<utility::matrix, utility::matrix>> backward(utility::matrix dZ) {
+                int M = dZ.rows;
+                int N = dZ.cols;
 
-                return {dX, dW};
+                utility::matrix dW = utility::dot(utility::transpose(this->X), dZ);
+                utility::matrix dX = utility::dot(dZ, utility::transpose(this->weights));
+        
+                utility::matrix db(1, N); 
+                std::fill(db.data.begin(), db.data.end(), 0.0f);
+        
+                for (int i = 0; i < M; ++i) {
+                    for (int j = 0; j < N; ++j) {
+                        db.data[j] += dZ.data[i * N + j];
+                    }
+                }
+        
+                return {dX, {dW, db}};
             }
 
             void changeOne(float d, size_t n_in, size_t n_out) {

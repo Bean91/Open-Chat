@@ -88,10 +88,10 @@ namespace openchat {
                 return x;
             }
 
-            std::pair<utility::matrix, std::vector<utility::matrix>> backward(utility::matrix dZ) {
-                std::pair<utility::matrix, std::vector<utility::matrix>> ndW;
+            std::pair<utility::matrix, std::vector<std::pair<utility::matrix, utility::matrix>>> backward(utility::matrix dZ) {
+                std::pair<utility::matrix, std::vector<std::pair<utility::matrix, utility::matrix>>> ndW;
                 for (auto it = this->network.rbegin(); it != this->network.rend(); ++it) {
-                    std::pair<utility::matrix, utility::matrix> p = it->backward(dZ);
+                    std::pair<utility::matrix, std::pair<utility::matrix, utility::matrix>> p = it->backward(dZ);
                     dZ = p.first;
                     ndW.second.push_back(p.second); 
                 }
