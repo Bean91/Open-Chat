@@ -11,6 +11,9 @@ namespace openchat {
         private:
             utility::matrix weights;
             utility::matrix biases;
+
+            utility::matrix X;
+
             std::default_random_engine generator;
             std::normal_distribution<float> initDist;
 
@@ -71,14 +74,18 @@ namespace openchat {
                 this->readFromFile(input);
             }
 
-            std::vector<float> feedForward(std::vector<float> input) {
-                utility::matrix i (1, input.size());
-                i.data = input;
-                std::vector<float> output = utility::add(utility::dot(i, this->weights), this->biases).data;
-                for (size_t i = 0; i < output.size(); i++) {
-                    output[i] = utility::relu(output[i]);
-                }
-                return output;
+            utility::matrix feedForward(utility::matrix x) {
+                this->X = x;
+                utility::matrix z = utility::add(utility::dot(x, this->weights), this->biases);
+                for (size_t i = 0; i < z.rows; i++) for (size_t j = 0; j < z.cols; j++) z[i][j] = utility::relu(z[i][j]);
+                return z;
+            }
+
+            std::pair<utility::matrix, utility::matrix> backward(utility::matrix dZ) {
+                utility::matrix dW = utility::dot(utility::transpose(X), dZ);
+                utility::matrix dX = utility::dot(dZ, utility::transpose(this->weights));
+
+                return {dX, dW};
             }
 
             void changeOne(float d, size_t n_in, size_t n_out) {
