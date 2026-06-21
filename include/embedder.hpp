@@ -96,9 +96,9 @@ namespace openchat {
                 utility::matrix vec(std::distance(toks.begin(), toks.end()), this->n_embd);
                 int i = 0;
                 for (int tok : toks) {
-                  std::vector<float> emb = this->embed(tok);
-                  std::copy(emb.begin(), emb.end(), vec[i]);
-                  i++;
+                    std::vector<float> emb = this->embed(tok);
+                    std::copy(emb.begin(), emb.end(), vec[i]);
+                    i++;
                 }
 
                 return vec;

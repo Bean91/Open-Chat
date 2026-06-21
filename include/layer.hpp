@@ -13,6 +13,7 @@ namespace openchat {
             utility::matrix biases;
 
             utility::matrix X;
+            utility::matrix Z;
 
             std::default_random_engine generator;
             std::normal_distribution<float> initDist;
@@ -77,6 +78,7 @@ namespace openchat {
             utility::matrix feedForward(utility::matrix x) {
                 this->X = x;
                 utility::matrix z = utility::add(utility::dot(x, this->weights), this->biases);
+                this->Z = z;
                 for (size_t i = 0; i < z.rows; i++) for (size_t j = 0; j < z.cols; j++) z[i][j] = utility::relu(z[i][j]);
                 return z;
             }

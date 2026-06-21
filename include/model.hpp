@@ -81,9 +81,9 @@ namespace openchat {
                     int next = *std::next(corpus.begin(), i + start);
             
                     utility::matrix dist = forwardPass(tokens);
-                    utility::matrix oneHot = utility::matrix(dist.rows, 1);
-                    oneHot[next][0] = 1;
-                    float loss = -1 * std::log(dist[next][0]);
+                    utility::matrix oneHot = utility::matrix(dist.rows, dist.cols);
+                    oneHot[0][next] = 1;
+                    float loss = -1 * std::log(dist[0][next]);
             
                     utility::matrix dZ = utility::subtract(dist, oneHot);
             
@@ -99,29 +99,30 @@ namespace openchat {
                     embedder.backward(dZ, this->learning_rate);
 
                     int j = 0;
-                    for (block& b : this->blocks) {
+                    for (auto it = this->blocks.rbegin(); it != this->blocks.rend(); ++it) {
+                        block &b = *it;
                         std::vector<std::pair<utility::matrix, utility::matrix>> ndW = bdW[j].first;
                         std::vector<utility::matrix> adW = bdW[j].second;
 
-                        for (size_t layer = ndW.size() - 1; layer >= 0; layer--) {
-                            for (int k = 0; k < ndW[layer].first.cols; k++) 
+                        for (size_t layer = 0; layer < ndW.size(); layer++) {
+                            for (int k = 0; k < ndW[layer].first.cols; k++)
                                 b.changeOne(layer, ndW[layer].first[0][k] * this->learning_rate, k);
 
-                            for (int k = 0; k < ndW[layer].second.rows; k ++)
-                                for (int l = 0; l < ndW[layer].second.rows; l++)
-                                    b.changeOne(layer,  ndW[layer].second[k][l] * this->learning_rate, k, l);
+                            for (int k = 0; k < ndW[layer].second.rows; k++)
+                                for (int l = 0; l < ndW[layer].second.cols; l++)
+                                    b.changeOne(layer, ndW[layer].second[k][l] * this->learning_rate, k, l);
                         }
 
                         for (int k = 0; k < adW[0].rows; k++)
-                            for (int l = 0; l < adW[0].rows; l++)
+                            for (int l = 0; l < adW[0].cols; l++)
                                 b.changeOne('q', k, l, adW[0][k][l] * this->learning_rate);
 
                         for (int k = 0; k < adW[1].rows; k++)
-                            for (int l = 0; l < adW[1].rows; l++)
+                            for (int l = 0; l < adW[1].cols; l++)
                                 b.changeOne('k', k, l, adW[1][k][l] * this->learning_rate);
 
                         for (int k = 0; k < adW[2].rows; k++)
-                            for (int l = 0; l < adW[2].rows; l++)
+                            for (int l = 0; l < adW[2].cols; l++)
                                 b.changeOne('v', k, l, adW[2][k][l] * this->learning_rate);
 
                         j++;
