@@ -115,7 +115,7 @@ namespace openchat {
                     for (int j = 0; j < dZ.cols; j++) {
                         this->table[tok][j] -= dZ[i][j] * lr;
                     }
-                    +tok_it;
+                    ++tok_it;
                 }
             }
 
