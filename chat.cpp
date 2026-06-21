@@ -58,7 +58,24 @@ openchat::model read(openchat::tokenizer&tokenizer) {
 }
 
 void predict(openchat::model &model) {
+    std::string input;
+    std::cout << "What would you like to input?" << std::endl;
+    std::cin >> input;
+    
+    std::forward_list<int> tokens = model.tokenize(input);
 
+    openchat::utility::matrix dist = model.forwardPass(tokens);
+
+    float max = dist[0][0];
+    size_t maxi = 0;
+    for (size_t i = 0; i < dist.rows; i++) {
+        if (dist[i][0] > max) {
+            max = dist[i][0];
+            maxi = i;
+        }
+    }
+
+    std::cout << "Predicted token: " <<  model.decodeToken(maxi) << std::endl;
 }
 
 int main() {

@@ -51,6 +51,14 @@ namespace openchat {
                 this->learning_rate = n;
             }
 
+            std::forward_list<int> tokenize(std::string input) {
+                return this->tokenizer.encode(input);
+            }
+
+            std::string decodeToken(int tok) {
+                return this->tokenizer.decode({tok});
+            }
+
             utility::matrix forwardPass(std::forward_list<int> tokens) {
                 utility::matrix unembed = utility::transpose(*embedder.getTable());
 
