@@ -109,10 +109,13 @@ namespace openchat {
             }
 
             void backward(utility::matrix dZ, float lr) {
+                auto tok_it = this->toks.begin();
                 for (int i = 0; i < dZ.rows; i++) {
+                    int tok = *tok_it;
                     for (int j = 0; j < dZ.cols; j++) {
-                        this->table[*std::next(this->toks.begin(), i)][j] += dZ[i][j] * lr;
+                        this->table[tok][j] -= dZ[i][j] * lr;
                     }
+                    +tok_it;
                 }
             }
 

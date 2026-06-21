@@ -56,7 +56,7 @@ namespace openchat {
             }
 
             void layerNorm(std::vector<float> &x, size_t start, size_t end) {
-                std::vector<float> input(x[start], x[end]);
+                std::vector<float> input(x.begin() + start, x.begin() + end);
 
                 if (input.empty()) return;
 

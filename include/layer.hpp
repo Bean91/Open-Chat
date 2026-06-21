@@ -77,8 +77,13 @@ namespace openchat {
 
             utility::matrix feedForward(utility::matrix x) {
                 this->X = x;
-                utility::matrix z = utility::add(utility::dot(x, this->weights), this->biases);
+                utility::matrix z = utility::dot(x, this->weights);
                 this->Z = z;
+                for (size_t i = 0; i < z.rows; i++) {
+                    for (size_t j = 0; j < z.cols; j++) {
+                        z[i][j] += this->biases[0][j];
+                    }
+                }
                 for (size_t i = 0; i < z.rows; i++) for (size_t j = 0; j < z.cols; j++) z[i][j] = utility::relu(z[i][j]);
                 return z;
             }
