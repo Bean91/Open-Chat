@@ -3,6 +3,7 @@
 
 #include <cstddef>
 #include <filesystem>
+#include <forward_list>
 #include <random>
 #include <fstream>
 #include "utility.hpp"
@@ -13,6 +14,8 @@ namespace openchat {
             utility::matrix table;
             size_t n_tok;
             size_t n_embd;
+
+            std::forward_list<int> toks;
 
             std::default_random_engine generator;
             std::normal_distribution<float> initDist;
@@ -88,8 +91,32 @@ namespace openchat {
                 return vec;
             }
 
+            utility::matrix embed(std::forward_list<int> toks) {
+                this->toks = toks;
+                utility::matrix vec(std::distance(toks.begin(), toks.end()), this->n_embd);
+                int i = 0;
+                for (int tok : toks) {
+                    std::vector<float> emb = this->embed(tok);
+                    std::copy(emb.begin(), emb.end(), vec[i]);
+                    i++;
+                }
+
+                return vec;
+            }
+
             utility::matrix * getTable() {
                 return &this->table;
+            }
+
+            void backward(utility::matrix dZ, float lr) {
+                auto tok_it = this->toks.begin();
+                for (int i = 0; i < dZ.rows; i++) {
+                    int tok = *tok_it;
+                    for (int j = 0; j < dZ.cols; j++) {
+                        this->table[tok][j] -= dZ[i][j] * lr;
+                    }
+                    ++tok_it;
+                }
             }
 
             embedder() {}

@@ -49,6 +49,22 @@ namespace openchat {
 
             return c;
         }
+
+        inline matrix subtract(const matrix& a, const matrix& b) {
+            if (a.cols != b.cols)
+                throw std::invalid_argument("Columns don't match!");
+            if (a.rows != b.rows)
+                throw std::invalid_argument("Rows don't match!");
+            
+            matrix c = matrix(a.rows, b.cols);
+            for (size_t i = 0; i < a.rows; i++ ) {
+                for (size_t j = 0; j < a.cols; j++) {
+                    c[i][j] = a[i][j] - b[i][j];
+                }
+            }
+
+            return c;
+        }
         
         inline matrix dot(const matrix& a, const matrix& b) {
             if (a.cols != b.rows) throw std::invalid_argument("Inner dimensions don't match!");

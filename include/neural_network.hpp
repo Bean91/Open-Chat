@@ -6,6 +6,7 @@
 #include <limits>
 #include <vector>
 #include "layer.hpp"
+#include "utility.hpp"
 
 namespace openchat {
     class neuralNetwork {
@@ -13,13 +14,8 @@ namespace openchat {
             std::vector<layer> network;
             std::vector<size_t> dimensions;
 
-            std::vector<float> gain;
-            std::vector<float> bias;
-
         public:
             void init() {
-              this->gain = std::vector<float>(this->dimensions[(this->dimensions.size() - 1)], 1.0f);
-              this->bias = std::vector<float>(this->dimensions[(this->dimensions.size() - 1)], 0.0f);
               for (size_t i = 0; i < dimensions.size() - 1; i++) {
                 network.push_back(layer(dimensions[i], dimensions[i + 1]));
               }
@@ -30,8 +26,6 @@ namespace openchat {
 
                 if (inFile.is_open()) {
                     inFile.read(reinterpret_cast<char *>(this->dimensions.data()), sizeof(size_t) * this->dimensions.size());
-                    inFile.read(reinterpret_cast<char *>(this->gain.data()), sizeof(float) * this->dimensions[(this->dimensions.size() - 1)]);
-                    inFile.read(reinterpret_cast<char *>(this->bias.data()), sizeof(float) * this->dimensions[(this->dimensions.size() - 1)]);
                 }
 
                 for (size_t i = 0; i < input.second.size(); i++) {
@@ -44,8 +38,6 @@ namespace openchat {
 
                 if (outFile.is_open()) {
                     outFile.write(reinterpret_cast<char *>(this->dimensions.data()), sizeof(size_t) * this->dimensions.size());
-                    outFile.write(reinterpret_cast<char *>(this->gain.data()), sizeof(float) * this->dimensions[(this->dimensions.size() - 1)]);
-                    outFile.write(reinterpret_cast<char *>(this->bias.data()), sizeof(float) * this->dimensions[(this->dimensions.size() - 1)]);
                 }
 
                 for (size_t i = 0; i < output.second.size(); i++) {
@@ -63,7 +55,9 @@ namespace openchat {
                 this->readFromFile(input);
             }
 
-            void layerNorm(std::vector<float> &input) {
+            void layerNorm(std::vector<float> &x, size_t start, size_t end) {
+                std::vector<float> input(x.begin() + start, x.begin() + end);
+
                 if (input.empty()) return;
 
                 float sum = 0;
@@ -75,17 +69,34 @@ namespace openchat {
                 float variance = sum / input.size();
 
                 for (int i = 0; i < input.size(); i++) {
-                    input[i] = ((input[i] - mean)/std::sqrt(variance + std::numeric_limits<float>::epsilon())) * this->gain[i] + this->bias[i];
+                    input[i] = ((input[i] - mean)/std::sqrt(variance + std::numeric_limits<float>::epsilon()));
+                }
+
+                for (int i = 0; i < input.size(); i++) {
+                    x[start+i] = input[i];
                 }
             }
 
-            std::vector<float> feedForward(std::vector<float> input) {
+            utility::matrix feedForward(utility::matrix x) {
                 for (layer &l : network) {
-                    input = l.feedForward(input);
+                    x = l.feedForward(x);
                 }
 
-                this->layerNorm(input);
-                return input;
+                for (int i = 0; i < x.rows; i++) {
+                    this->layerNorm(x.data, i*x.cols, i*x.cols+x.cols);
+                }
+                return x;
+            }
+
+            std::pair<utility::matrix, std::vector<std::pair<utility::matrix, utility::matrix>>> backward(utility::matrix dZ) {
+                std::pair<utility::matrix, std::vector<std::pair<utility::matrix, utility::matrix>>> ndW;
+                for (auto it = this->network.rbegin(); it != this->network.rend(); ++it) {
+                    std::pair<utility::matrix, std::pair<utility::matrix, utility::matrix>> p = it->backward(dZ);
+                    dZ = p.first;
+                    ndW.second.push_back(p.second); 
+                }
+                ndW.first = dZ;
+                return ndW;
             }
 
             void changeOne(size_t layer, float d, size_t n_in, size_t n_out) {
@@ -94,11 +105,6 @@ namespace openchat {
 
             void changeOne(size_t layer, float d, size_t n_in) {
                 this->network[layer].changeOne(d, n_in);
-            }
-            
-            void changeOne(int x, float d, int pos) {
-                if (x == 0) gain[pos] -= d;
-                if (x == 1) bias[pos] -= d;
             }
 
             neuralNetwork() {}

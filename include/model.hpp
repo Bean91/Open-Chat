@@ -1,7 +1,9 @@
 #ifndef MODEL_HPP
 #define MODEL_HPP
 
+#include <cstddef>
 #include <forward_list>
+#include <stdexcept>
 #include <vector>
 #include <filesystem>
 #include <utility>
@@ -17,6 +19,7 @@ namespace openchat {
             tokenizer tokenizer;
             embedder embedder;
             std::vector<block> blocks;
+            float learning_rate = 0.01;
             
         public:
             void init() {
@@ -33,25 +36,24 @@ namespace openchat {
                 }
             }
 
-            model(class tokenizer &tokenizer, class embedder &embedder, std::vector<class block> &blocks) {
+            model(class tokenizer &tokenizer, class embedder &embedder, std::vector<class block> &blocks, float learning_rate = 0.01) {
                 this->tokenizer = tokenizer;
                 this->embedder = embedder;
                 this->blocks = blocks;
 
+                this->learning_rate = learning_rate;
+
                 this->init();
             }
 
-            std::string forwardPass(std::string input) {
-                std::forward_list<int> tokens = tokenizer.encode(input);
+            void changeLearningRate(float n) {
+                this->learning_rate = n;
+            }
+
+            utility::matrix forwardPass(std::forward_list<int> tokens) {
                 utility::matrix unembed = utility::transpose(*embedder.getTable());
 
-                utility::matrix x = utility::matrix(std::distance(tokens.begin(), tokens.end()), embedder.getNEmbd());
-                int i = 0;
-                for (int token : tokens) {
-                  std::vector<float> emb = embedder.embed(token);
-                  std::copy(emb.begin(), emb.end(), x[i]);
-                  i++;
-                }
+                utility::matrix x = embedder.embed(tokens);
                 
                 x = positionalEncoding(x).apply();
 
@@ -64,17 +66,70 @@ namespace openchat {
 
                 dist = utility::softmax(utility::dot(dist, unembed));
 
-                float max = dist[0][0];
-                int token = 0;
-                for (size_t j = 1; j < dist.cols; j++) {
-                    if (dist[0][j] > max) {
-                        max = dist[0][j];
-                        token = static_cast<int>(j);
+                return dist;
+            }
+
+            void train(std::string input, size_t epochs = 100) {
+                std::forward_list<int> corpus = tokenizer.encode(input);
+                auto length = std::distance(corpus.begin(), corpus.end());
+                
+                if (length < static_cast<long long>(epochs)) throw std::invalid_argument("Give a longer input!");
+                size_t start = length - epochs;
+            
+                for (size_t i = 0; i < epochs; i++) {
+                    std::forward_list<int> tokens(corpus.begin(), std::next(corpus.begin(), i + start));
+                    int next = *std::next(corpus.begin(), i + start);
+            
+                    utility::matrix dist = forwardPass(tokens);
+                    utility::matrix oneHot = utility::matrix(dist.rows, dist.cols);
+                    oneHot[0][next] = 1;
+                    float loss = -1 * std::log(dist[0][next]);
+            
+                    utility::matrix dZ = utility::subtract(dist, oneHot);
+            
+                    std::vector<std::pair<std::vector<std::pair<utility::matrix, utility::matrix>>, std::vector<utility::matrix>>> bdW;
+                    utility::matrix edW;
+            
+                    for (auto it = blocks.rbegin(); it != blocks.rend(); ++it) {
+                        std::pair<utility::matrix, std::pair<std::vector<std::pair<utility::matrix, utility::matrix>>, std::vector<utility::matrix>>> p = it->backward(dZ);
+                        dZ = p.first;
+                        bdW.push_back(p.second);
+                    }
+            
+                    embedder.backward(dZ, this->learning_rate);
+
+                    int j = 0;
+                    for (auto it = this->blocks.rbegin(); it != this->blocks.rend(); ++it) {
+                        block &b = *it;
+                        std::vector<std::pair<utility::matrix, utility::matrix>> ndW = bdW[j].first;
+                        std::vector<utility::matrix> adW = bdW[j].second;
+
+                        for (size_t layer = 0; layer < ndW.size(); layer++) {
+                            for (int k = 0; k < ndW[layer].first.cols; k++)
+                                b.changeOne(layer, ndW[layer].first[0][k] * this->learning_rate, k);
+
+                            for (int k = 0; k < ndW[layer].second.rows; k++)
+                                for (int l = 0; l < ndW[layer].second.cols; l++)
+                                    b.changeOne(layer, ndW[layer].second[k][l] * this->learning_rate, k, l);
+                        }
+
+                        for (int k = 0; k < adW[0].rows; k++)
+                            for (int l = 0; l < adW[0].cols; l++)
+                                b.changeOne('q', k, l, adW[0][k][l] * this->learning_rate);
+
+                        for (int k = 0; k < adW[1].rows; k++)
+                            for (int l = 0; l < adW[1].cols; l++)
+                                b.changeOne('k', k, l, adW[1][k][l] * this->learning_rate);
+
+                        for (int k = 0; k < adW[2].rows; k++)
+                            for (int l = 0; l < adW[2].cols; l++)
+                                b.changeOne('v', k, l, adW[2][k][l] * this->learning_rate);
+
+                        j++;
                     }
                 }
-
-                return tokenizer.decode({token});
             }
+            
     };
 }
 

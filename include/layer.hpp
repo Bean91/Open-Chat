@@ -11,6 +11,10 @@ namespace openchat {
         private:
             utility::matrix weights;
             utility::matrix biases;
+
+            utility::matrix X;
+            utility::matrix Z;
+
             std::default_random_engine generator;
             std::normal_distribution<float> initDist;
 
@@ -71,14 +75,36 @@ namespace openchat {
                 this->readFromFile(input);
             }
 
-            std::vector<float> feedForward(std::vector<float> input) {
-                utility::matrix i (1, input.size());
-                i.data = input;
-                std::vector<float> output = utility::add(utility::dot(i, this->weights), this->biases).data;
-                for (size_t i = 0; i < output.size(); i++) {
-                    output[i] = utility::relu(output[i]);
+            utility::matrix feedForward(utility::matrix x) {
+                this->X = x;
+                utility::matrix z = utility::dot(x, this->weights);
+                this->Z = z;
+                for (size_t i = 0; i < z.rows; i++) {
+                    for (size_t j = 0; j < z.cols; j++) {
+                        z[i][j] += this->biases[0][j];
+                    }
                 }
-                return output;
+                for (size_t i = 0; i < z.rows; i++) for (size_t j = 0; j < z.cols; j++) z[i][j] = utility::relu(z[i][j]);
+                return z;
+            }
+
+            std::pair<utility::matrix, std::pair<utility::matrix, utility::matrix>> backward(utility::matrix dZ) {
+                int M = dZ.rows;
+                int N = dZ.cols;
+
+                utility::matrix dW = utility::dot(utility::transpose(this->X), dZ);
+                utility::matrix dX = utility::dot(dZ, utility::transpose(this->weights));
+        
+                utility::matrix db(1, N); 
+                std::fill(db.data.begin(), db.data.end(), 0.0f);
+        
+                for (int i = 0; i < M; ++i) {
+                    for (int j = 0; j < N; ++j) {
+                        db.data[j] += dZ.data[i * N + j];
+                    }
+                }
+        
+                return {dX, {dW, db}};
             }
 
             void changeOne(float d, size_t n_in, size_t n_out) {

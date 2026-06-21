@@ -3,6 +3,8 @@
 
 #include "neural_network.hpp"
 #include "self_attention.hpp"
+#include "utility.hpp"
+#include <vector>
 
 namespace openchat {
     class block {
@@ -41,13 +43,23 @@ namespace openchat {
 
             utility::matrix feedForward(utility::matrix x) {
                 x = attention.attention(x);
-                for (int i = 0; i < x.rows; i++) {
-                    std::vector<float> output = network.feedForward(std::vector<float>(x[i], x[i] + this->n_embd));
-                    std::copy(output.begin(), output.end(), x[i]);
-                }
+                x = network.feedForward(x);
 
                 return x;
             }
+
+            std::pair<utility::matrix, std::pair<std::vector<std::pair<utility::matrix, utility::matrix>>, std::vector<utility::matrix>>> backward(utility::matrix dZ) {
+                std::pair<utility::matrix, std::vector<std::pair<utility::matrix, utility::matrix>>> net_pass = network.backward(dZ);
+                
+                std::pair<utility::matrix, std::vector<utility::matrix>> attn_pass = attention.backward(net_pass.first);
+            
+                std::pair<std::vector<std::pair<utility::matrix, utility::matrix>>, std::vector<utility::matrix>> dW;
+                dW.first = net_pass.second;
+                dW.second = attn_pass.second;
+            
+                return {attn_pass.first, dW};
+            }
+            
 
             void changeOne(char mat, size_t row, size_t col, float d) {
                 this->attention.changeOne(mat, row, col, d);

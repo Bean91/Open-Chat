@@ -5,6 +5,9 @@
 #include <filesystem>
 #include <fstream>
 #include <random>
+#include <cmath>
+#include <vector>
+#include <utility>
 
 namespace openchat {
     class selfAttention {
@@ -16,6 +19,8 @@ namespace openchat {
             utility::matrix q;
             utility::matrix k;
             utility::matrix v;
+            utility::matrix p;
+            utility::matrix x;
 
             size_t n_embd;
 
@@ -24,7 +29,8 @@ namespace openchat {
 
           public:
             void init() {
-                initDist = std::normal_distribution<float>(0, this->n_embd);
+                float stddev = 1.0f / std::sqrt(static_cast<float>(this->n_embd));
+                initDist = std::normal_distribution<float>(0.0f, stddev);
 
                 for (size_t i = 0; i < this->n_embd; i++) {
                     for (size_t j = 0; j < this->n_embd; j++) {
@@ -78,21 +84,66 @@ namespace openchat {
             }
 
             utility::matrix attention(utility::matrix x) {
+                this->x = x;
                 this->q = utility::dot(x, this->wq);
                 this->k = utility::dot(x, this->wk);
                 this->v = utility::dot(x, this->wv);
-                
-                return utility::dot(
-                    utility::softmax(
-                        utility::scalar_div(
-                            utility::dot(this->q, 
-                            utility::transpose(this->k)), 
-                        std::sqrt(n_embd))), 
-                    this->v); 
+
+                this->p = utility::softmax(utility::scalar_div(
+                    utility::dot(this->q, utility::transpose(this->k)),
+                    std::sqrt(static_cast<float>(n_embd))));
+
+                return utility::dot(this->p, this->v);
             }
 
             size_t getNEmbed() {
                 return this->n_embd;
+            }
+
+            std::pair<utility::matrix, std::vector<utility::matrix>> backward(utility::matrix dZ) {
+                utility::matrix dV = utility::dot(utility::transpose(this->p), dZ);
+                utility::matrix dP = utility::dot(dZ, utility::transpose(this->v));
+                
+                int M = dP.rows; 
+                utility::matrix dS(M, M);
+                
+                for (int i = 0; i < M; ++i) {
+                    float sum_dP_P = 0.0f;
+
+                    for (int k = 0; k < M; ++k) {
+                        sum_dP_P += dP.data[i * M + k] * this->p.data[i * M + k];
+                    }
+                    
+                    for (int j = 0; j < M; ++j) {
+                        int idx = i * M + j;
+                        dS.data[idx] = this->p.data[idx] * (dP.data[idx] - sum_dP_P);
+                    }
+                }
+                
+                int K = this->q.cols; 
+                float scale = 1.0f / std::sqrt(static_cast<float>(K));
+                for (int i = 0; i < M * M; ++i) {
+                    dS.data[i] *= scale;
+                }
+                
+                utility::matrix dQ = utility::dot(dS, this->k);
+                utility::matrix dK = utility::dot(utility::transpose(dS), this->q);
+                
+                utility::matrix dWq = utility::dot(utility::transpose(this->x), dQ);
+                utility::matrix dWk = utility::dot(utility::transpose(this->x), dK);
+                utility::matrix dWv = utility::dot(utility::transpose(this->x), dV);
+                
+                utility::matrix dX_q = utility::dot(dQ, utility::transpose(this->wq));
+                utility::matrix dX_k = utility::dot(dK, utility::transpose(this->wk));
+                utility::matrix dX_v = utility::dot(dV, utility::transpose(this->wv));
+                
+                utility::matrix dX(dX_q.rows, dX_q.cols);
+                for (int i = 0; i < dX.rows * dX.cols; ++i) {
+                    dX.data[i] = dX_q.data[i] + dX_k.data[i] + dX_v.data[i];
+                }
+                
+                std::vector<utility::matrix> weight_gradients = {dWq, dWk, dWv};
+                return {dX, weight_gradients};
             }
 
             void changeOne(char mat, size_t row, size_t col, float d) {
