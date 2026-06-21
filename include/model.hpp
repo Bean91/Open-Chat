@@ -30,7 +30,8 @@ namespace openchat {
                 }
             }
 
-            model(std::pair<std::pair<std::filesystem::path, std::filesystem::path>, std::vector<std::pair<std::pair<std::filesystem::path, std::vector<std::filesystem::path>>, std::filesystem::path>>> inputFiles) : tokenizer(inputFiles.first.first, true), embedder(inputFiles.first.second) {
+            model(class tokenizer &tokenizer, std::pair<std::filesystem::path, std::vector<std::pair<std::pair<std::filesystem::path, std::vector<std::filesystem::path>>, std::filesystem::path>>> inputFiles): embedder(inputFiles.first) {
+                this->tokenizer = tokenizer;
                 for (size_t i = 0; i < inputFiles.second.size(); i++) {
                     blocks.push_back(block(inputFiles.second[i]));
                 }
@@ -129,6 +130,8 @@ namespace openchat {
                     }
                 }
             }
+
+            model() {}
             
     };
 }
