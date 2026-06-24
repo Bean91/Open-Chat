@@ -70,6 +70,7 @@ int main() {
 
     size_t epochs = 128;
     size_t chunks = 128;
+    size_t files = 512;
 	std::string corpus = "";
 
 	if (std::filesystem::exists(directory) && std::filesystem::is_directory(directory)) {
@@ -88,7 +89,7 @@ int main() {
 				if (fcounter % 32 == 0) std::cout << "Loaded " << fcounter << " files..." << std::endl;
 			}
 
-			if (fcounter >= 256) break;
+			if (fcounter >= 512) break;
 		}
 
 		if (!corpus.empty()) {
@@ -97,6 +98,7 @@ int main() {
             for (size_t i = 0; i < chunks; i++) {
                 std::string shortCorp = corpus.substr(i * len, (i + 1) * len);
 			    model.train(shortCorp, epochs);
+                if (i % 16 == 0) std::cout << "Finished chunk " << i << "/" << chunks << std::endl;
             }
 		}
 	} else {
