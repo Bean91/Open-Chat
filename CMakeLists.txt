@@ -12,6 +12,6 @@ endif()
 add_executable(openchat chat.cpp)
 add_executable(tokentrainer training/tokenizer_trainer.cpp)
 add_executable(tokentester dev_testing/tokenizer_tester.cpp)
-# add_executable(modeltrainer training/model_trainer.cpp)
+add_executable(modeltrainer training/model_trainer.cpp)
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
