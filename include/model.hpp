@@ -47,6 +47,14 @@ namespace openchat {
                 this->init();
             }
 
+            void saveToFile(std::pair<std::filesystem::path, std::vector<std::pair<std::pair<std::filesystem::path, std::vector<std::filesystem::path>>, std::filesystem::path>>> files) {
+                embedder.saveToFile(files.first);
+
+                for (int i = 0; i < blocks.size(); i++) {
+                    blocks[i].saveToFile(files.second[i]);
+                }
+            }
+
             void changeLearningRate(float n) {
                 this->learning_rate = n;
             }

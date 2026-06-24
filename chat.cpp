@@ -4,8 +4,10 @@
 #include <model.hpp>
 
 openchat::model init(openchat::tokenizer &tokenizer) {
-    size_t n_embd;
+    size_t n_embd = 256;
     openchat::embedder embedder(tokenizer.get_vocab()->size(), n_embd);
+
+    std::cout << "Embedder initialized!" << std::endl;
 
     size_t n_blocks = 4;
     std::vector<openchat::block> blocks;
@@ -14,6 +16,7 @@ openchat::model init(openchat::tokenizer &tokenizer) {
 
     for (int i = 0; i < n_blocks; i++) {
         blocks.push_back({dimensions, n_embd});
+        std::cout << "Block " << i << " initialized!" << std::endl;
     }
 
     return openchat::model(tokenizer, embedder, blocks);
@@ -68,9 +71,9 @@ void predict(openchat::model &model) {
 
     float max = dist[0][0];
     size_t maxi = 0;
-    for (size_t i = 0; i < dist.rows; i++) {
-        if (dist[i][0] > max) {
-            max = dist[i][0];
+    for (size_t i = 0; i < dist.cols; i++) {
+        if (dist[0][i] > max) {
+            max = dist[0][i];
             maxi = i;
         }
     }
