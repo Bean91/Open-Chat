@@ -69,7 +69,7 @@ int main() {
     openchat::model model = init(tokenizer);
 
     size_t epochs = 128;
-    size_t chunks = 128;
+    size_t chunks = 16384;
     size_t files = 512;
 	std::string corpus = "";
 
@@ -89,12 +89,12 @@ int main() {
 				if (fcounter % 32 == 0) std::cout << "Loaded " << fcounter << " files..." << std::endl;
 			}
 
-			if (fcounter >= 512) break;
+			if (fcounter >= files) break;
 		}
 
 		if (!corpus.empty()) {
 			std::cout << "Starting global training. Total characters: " << corpus.length() << std::endl;
-            size_t len = corpus.length();
+            size_t len = corpus.length() / chunks;
             for (size_t i = 0; i < chunks; i++) {
                 std::string shortCorp = corpus.substr(i * len, (i + 1) * len);
 			    model.train(shortCorp, epochs);
