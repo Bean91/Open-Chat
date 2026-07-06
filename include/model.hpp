@@ -67,23 +67,34 @@ namespace openchat {
                 return this->tokenizer.decode({tok});
             }
 
-            utility::matrix forwardPass(std::forward_list<int> tokens) {
+            struct forwardResult {
+                utility::matrix dist;        // softmax output over the vocab, shape (1, n_vocab)
+                utility::matrix unembed;     // transpose of the embedding table, shape (n_embd, n_vocab)
+                utility::matrix lastHidden;  // last-position hidden state fed into unembed, shape (1, n_embd)
+                size_t seq_len;              // number of positions the blocks were run over
+            };
+
+            forwardResult forwardPassInternal(std::forward_list<int> tokens) {
                 utility::matrix unembed = utility::transpose(*embedder.getTable());
 
                 utility::matrix x = embedder.embed(tokens);
-                
+
                 x = positionalEncoding(x).apply();
 
-                for (block b : this->blocks) {
+                for (block &b : this->blocks) {
                     x = b.feedForward(x);
                 }
 
-                utility::matrix dist = utility::matrix(1, embedder.getNEmbd());
-                dist.data = std::vector<float>(x[x.rows - 1], x[x.rows - 1] + x.cols);
+                utility::matrix lastHidden = utility::matrix(1, embedder.getNEmbd());
+                lastHidden.data = std::vector<float>(x[x.rows - 1], x[x.rows - 1] + x.cols);
 
-                dist = utility::softmax(utility::dot(dist, unembed));
+                utility::matrix dist = utility::softmax(utility::dot(lastHidden, unembed));
 
-                return dist;
+                return {dist, unembed, lastHidden, x.rows};
+            }
+
+            utility::matrix forwardPass(std::forward_list<int> tokens) {
+                return forwardPassInternal(tokens).dist;
             }
 
             void train(std::string input, size_t epochs = 100) {
@@ -97,22 +108,39 @@ namespace openchat {
                     std::forward_list<int> tokens(corpus.begin(), std::next(corpus.begin(), i + start));
                     int next = *std::next(corpus.begin(), i + start);
             
-                    utility::matrix dist = forwardPass(tokens);
+                    forwardResult fr = forwardPassInternal(tokens);
+                    utility::matrix dist = fr.dist;
                     utility::matrix oneHot = utility::matrix(dist.rows, dist.cols);
                     oneHot[0][next] = 1;
                     float loss = -1 * std::log(dist[0][next]);
-            
-                    utility::matrix dZ = utility::subtract(dist, oneHot);
-            
+
+                    utility::matrix dLogits = utility::subtract(dist, oneHot);
+
+                    utility::matrix dUnembed = utility::dot(utility::transpose(fr.lastHidden), dLogits);
+                    utility::matrix dTable = utility::transpose(dUnembed);
+                    utility::matrix *table = embedder.getTable();
+                    for (size_t row = 0; row < dTable.rows; row++) {
+                        for (size_t col = 0; col < dTable.cols; col++) {
+                            (*table)[row][col] -= dTable[row][col] * this->learning_rate;
+                        }
+                    }
+
+                    utility::matrix dHidden = utility::dot(dLogits, utility::transpose(fr.unembed));
+
+                    utility::matrix dZ(fr.seq_len, embedder.getNEmbd());
+                    for (size_t col = 0; col < dHidden.cols; col++) {
+                        dZ[fr.seq_len - 1][col] = dHidden[0][col];
+                    }
+
                     std::vector<std::pair<std::vector<std::pair<utility::matrix, utility::matrix>>, std::vector<utility::matrix>>> bdW;
                     utility::matrix edW;
-            
+
                     for (auto it = blocks.rbegin(); it != blocks.rend(); ++it) {
                         std::pair<utility::matrix, std::pair<std::vector<std::pair<utility::matrix, utility::matrix>>, std::vector<utility::matrix>>> p = it->backward(dZ);
                         dZ = p.first;
                         bdW.push_back(p.second);
                     }
-            
+
                     embedder.backward(dZ, this->learning_rate);
 
                     int j = 0;
