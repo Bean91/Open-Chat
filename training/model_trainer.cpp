@@ -98,7 +98,7 @@ int main() {
             for (size_t i = 0; i < chunks; i++) {
                 std::string shortCorp = corpus.substr(i * len, (i + 1) * len);
 			    model.train(shortCorp, epochs);
-                if (i % 16 == 0) std::cout << "Finished chunk " << i << "/" << chunks << std::endl;
+                if (i+1 % 16 == 0) std::cout << "Finished chunk " << i+1 << "/" << chunks << std::endl;
             }
 		}
 	} else {

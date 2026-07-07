@@ -1,6 +1,8 @@
 training_corpus/
 compile_commands.json
 venv/
+website/backend/.venv/
+website/backend/__pycache__/
 .cache/
 build/
 website/node_modules
