@@ -68,39 +68,53 @@ int main() {
 
     openchat::model model = init(tokenizer);
 
-    size_t epochs = 128;
-    size_t chunks = 16384;
-    size_t files = 512;
-	std::string corpus = "";
+    size_t epochs, chunks, files;
 
-	if (std::filesystem::exists(directory) && std::filesystem::is_directory(directory)) {
-		std::cout << "Reading directory: " << directory << std::endl;
-		int fcounter = 0;
+    std::cout << "Welcome to the Model Trainer!" << std::endl;
+    std::cout << "How many epochs on each chunks?" << std::endl;
+    std::cin >> epochs;
+    std::cout << "How many chunks?" << std::endl;
+    std::cin >> chunks;
+    std::cout << "How many input files?" << std::endl;
+    std::cin >> files;
 
-		for (const std::filesystem::directory_entry &entry : std::filesystem::directory_iterator(directory)) {
-			std::ifstream training_file(entry.path());
-			if (training_file.is_open()) {
-				std::stringstream buffer;
-				buffer << training_file.rdbuf();
+    std::string corpus = "";
 
-				corpus += buffer.str() + " ";
+    if (std::filesystem::exists(directory) &&
+        std::filesystem::is_directory(directory)) {
+      std::cout << "Reading directory: " << directory << std::endl;
+      int fcounter = 0;
 
-				fcounter++;
-				if (fcounter % 32 == 0) std::cout << "Loaded " << fcounter << " files..." << std::endl;
-			}
+      for (const std::filesystem::directory_entry &entry :
+           std::filesystem::directory_iterator(directory)) {
+        std::ifstream training_file(entry.path());
+        if (training_file.is_open()) {
+          std::stringstream buffer;
+          buffer << training_file.rdbuf();
 
-			if (fcounter >= files) break;
-		}
+          corpus += buffer.str() + " ";
 
-		if (!corpus.empty()) {
-			std::cout << "Starting global training. Total characters: " << corpus.length() << std::endl;
-            size_t len = corpus.length() / chunks;
-            for (size_t i = 0; i < chunks; i++) {
-                std::string shortCorp = corpus.substr(i * len, (i + 1) * len);
-			    model.train(shortCorp, epochs);
-                if (i+1 % 16 == 0) std::cout << "Finished chunk " << i+1 << "/" << chunks << std::endl;
-            }
-		}
+          fcounter++;
+          if (fcounter % 32 == 0)
+            std::cout << "Loaded " << fcounter << " files..." << std::endl;
+        }
+
+        if (fcounter >= files)
+          break;
+      }
+
+      if (!corpus.empty()) {
+        std::cout << "Starting global training. Total characters: "
+                  << corpus.length() << std::endl;
+        size_t len = corpus.length() / chunks;
+        for (size_t i = 0; i < chunks; i++) {
+          std::string shortCorp = corpus.substr(i * len, (i + 1) * len);
+          model.train(shortCorp, epochs);
+          if ((i + 1) % 16 == 0)
+            std::cout << "Finished chunk " << i + 1 << "/" << chunks
+                      << std::endl;
+        }
+      }
 	} else {
 		std::cerr << "Directory not found: " << directory << std::endl;
 	}

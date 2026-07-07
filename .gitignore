@@ -6,3 +6,4 @@ website/backend/__pycache__/
 .cache/
 build/
 website/node_modules
+**/.DS_STORE
