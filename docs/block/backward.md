@@ -8,9 +8,9 @@ Returns the gradient to be passed back (`backward(dZ).first`), a vector of the g
 Returns a `std::pair<utility::matrix, std::pair<std::vector<std::pair<utility::matrix, utility::matrix>>, std::vector<utility::matrix>>>`
 
 ### Parameters
-| Parameter | Type                                     | Use             | Optional |
-|-----------|------------------------------------------|-----------------|----------|
-| `dZ`      | [`utility::matrix`]("../utility/matrix") | Gradient matrix | ❌        |
+| Parameter | Type                                        | Use             | Optional |
+|-----------|---------------------------------------------|-----------------|----------|
+| `dZ`      | [`utility::matrix`]("../utility/matrix.md") | Gradient matrix | ❌        |
 ---
 ## Example
 
