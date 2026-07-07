@@ -68,10 +68,10 @@ namespace openchat {
             }
 
             struct forwardResult {
-                utility::matrix dist;        // softmax output over the vocab, shape (1, n_vocab)
-                utility::matrix unembed;     // transpose of the embedding table, shape (n_embd, n_vocab)
-                utility::matrix lastHidden;  // last-position hidden state fed into unembed, shape (1, n_embd)
-                size_t seq_len;              // number of positions the blocks were run over
+                utility::matrix dist;
+                utility::matrix unembed;
+                utility::matrix lastHidden;
+                size_t seq_len;
             };
 
             forwardResult forwardPassInternal(std::forward_list<int> tokens) {

@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+* {
+	font-family: "JetBrains Mono Nerd", serif;
+}
+
+mjx-container,
+mjx-container * {
+	font-family: unset;
+}
