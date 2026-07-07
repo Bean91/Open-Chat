@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /*.tsx$
+Disallow: /*.css$
+Disallow: /*.json$
+Disallow: /*.cpp$
+Disallow: /*.js$
+Disallow: /*.ts$
+Sitemap: https://chat.openoted.com/sitemap.xml
