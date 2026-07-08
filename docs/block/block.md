@@ -11,13 +11,13 @@ Reads saved neural network and self attention blocks from the inputed filepaths.
 
 ---
 ## Basic Info
-A wrapper class that holds a [`neuralNetwork`](../neural_network/neuralNetwork.md) and a [`selfAttention`](../self_attention/selfAttention.md) block.
+A wrapper class that holds a [`neuralNetwork`](../neuralNetwork/neuralNetwork.md) and a [`selfAttention`](../selfAttention/selfAttention.md) block.
 
 ### Instance Variables
 | Variable    | Type                                                  |
 |-------------|-------------------------------------------------------|
-| `network`   | [`neuralNetwork`](../neural_network/neuralNetwork.md) |
-| `attention` | [`selfAttention`](../self_attention/selfAttention.md) |
+| `network`   | [`neuralNetwork`](../neuralNetwork/neuralNetwork.md) |
+| `attention` | [`selfAttention`](../selfAttention/selfAttention.md) |
 | `n_embd`    | `size_t`                                              |
 ---
 ## Functions
