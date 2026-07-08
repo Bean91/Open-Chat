@@ -16,6 +16,6 @@ Returns a `std::vector<float>`
 
 ```cpp
 // Calling the embed() function
-embedder e();
+embedder e(42, 42);
 e.embed(91);
 ```

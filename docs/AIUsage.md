@@ -9,5 +9,3 @@
 
  - Made `add_token()` (tokenizer.hpp) and the `max_frequency` (tokenizer_trainer.cpp) more robust to prevent duplicate tokens
  - Gave ideas for `escape()`/`unescape()` functions for robustness (code written without AI)
-
-## Website

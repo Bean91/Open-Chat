@@ -47,7 +47,7 @@ const MDContent: React.FC<docs> = ({sec, ite}) => {
 	const classes = "cursor-pointer p-1 rounded-sm"
 
 	useEffect(() => {
-		fetch("https://open-chat.fastapicloud.dev/api/docs/list", {
+		fetch("https://raw.githubusercontent.com/bean91/open-chat/main/docslist.txt", {
 			"method": "GET",
 		})
 		.then(response => response.json())
@@ -56,15 +56,15 @@ const MDContent: React.FC<docs> = ({sec, ite}) => {
 			console.log(data);
 		});
 		if (sec && !ite) {
-			fetch(`https://open-chat.fastapicloud.dev/api/docs/AIUsage`, {
+			fetch(`https://raw.githubusercontent.com/bean91/open-chat/main/docs/AIUsage.md`, {
 				"method": "GET"
 			}).then(response => response.text()).then(data => {setContent(data);});
 		} else if (!sec && !ite) {
-			fetch(`https://open-chat.fastapicloud.dev/api/docs/introduction`, {
+			fetch(`https://raw.githubusercontent.com/bean91/open-chat/main/docs/introduction.md`, {
 				"method": "GET"
 			}).then(response => response.text()).then(data => {setContent(data);});
 		} else if (sec && ite) {
-			fetch(`https://open-chat.fastapicloud.dev/api/docs/${section}/${item}`, {
+			fetch(`https://raw.githubusercontent.com/bean91/open-chat/main/docs/${section}/${item}.md`, {
 				"method": "GET"
  			}).then(response => response.text()).then(data => {setContent(data);});
  		}

@@ -1,8 +1,0 @@
-[project]
-name = "Open-Chat"
-version = "0.1.0"
-description = "Open Chat Documentation Backend"
-requires-python = ">=3.12"
-dependencies = [
-    "fastapi[standard]>=0.139.0",
-]

@@ -17,6 +17,7 @@ Returns `void`
 
 ```cpp
 // Calling the backward() function
-embedder e();
-e.backward();
+utility::matrix dZ;
+embedder e(919191. 36593034);
+e.backward(dZ);
 ```

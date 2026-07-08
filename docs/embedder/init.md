@@ -7,7 +7,7 @@ Initializes the embedding table (called in a constructor normally).
 ### Return Type
 Returns `void`
 ### Parameters
-| Parameter | Type.   | Use                | Optional |
+| Parameter | Type    | Use                | Optional |
 |-----------|---------|--------------------|----------|
 | `stddev`  | `float` | Standard Deviation | ✅        |
 
@@ -17,5 +17,5 @@ Returns `void`
 ```cpp
 // Calling the init() function
 embedder e(42, 42);
-b.init(0.069);
+e.init(0.069);
 ```
