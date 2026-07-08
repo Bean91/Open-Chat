@@ -47,7 +47,7 @@ const MDContent: React.FC<docs> = ({sec, ite}) => {
 	const classes = "cursor-pointer p-1 rounded-sm"
 
 	useEffect(() => {
-		fetch("https://raw.githubusercontent.com/bean91/open-chat/main/docslist.txt", {
+		fetch("https://raw.githubusercontent.com/bean91/open-chat/main/docs/docslist.txt", {
 			"method": "GET",
 		})
 		.then(response => response.json())
