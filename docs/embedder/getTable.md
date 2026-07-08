@@ -5,7 +5,7 @@ utility::matrix * getTable()
 ## Basic Info
 Returns a pointer to the embedding table.
 ### Return Type
-Returns a [`utility::matrix *`]("../utility/matrix.md")
+Returns a [`utility::matrix *`](../utility/matrix.md)
 
 ---
 ## Example

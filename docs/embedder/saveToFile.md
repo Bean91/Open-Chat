@@ -10,7 +10,7 @@ Returns `void`
 ### Parameters
 | Parameter | Type                    | Use         | Optional |
 |-----------|-------------------------|-------------|----------|
-| `output`   | `std::filesystem::path` | Output file | ❌        |
+| `output`  | `std::filesystem::path` | Output file | ❌        |
 
 ---
 ## Example
@@ -19,5 +19,5 @@ Returns `void`
 // Calling the saveToFile() function
 std::filesystem::path output; // Fill with your filepath
 embedder e(42, 420);
-e.readFromFile(output);
+e.saveToFile(output);
 ```

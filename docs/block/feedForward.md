@@ -8,9 +8,9 @@ Returns the transformed matrix to be fed into the next block (or decoding layer)
 Returns a `utility::matrix`
 
 ### Parameters
-| Parameter | Type                                        | Use          | Optional |
-|-----------|---------------------------------------------|--------------|----------|
-| `x`       | [`utility::matrix`]("../utility/matrix.md") | Input matrix | ❌        |
+| Parameter | Type                                      | Use          | Optional |
+|-----------|-------------------------------------------|--------------|----------|
+| `x`       | [`utility::matrix`](../utility/matrix.md) | Input matrix | ❌        |
 ---
 ## Example
 

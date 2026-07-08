@@ -9,7 +9,7 @@ Returns `void`
 ### Parameters
 | Parameter | Type    | Use                | Optional |
 |-----------|---------|--------------------|----------|
-| `stddev`  | `float` | Standard Deviation | ✅        |
+| `stddev`  | `float` | Standard Deviation | ✅       |
 
 ---
 ## Example

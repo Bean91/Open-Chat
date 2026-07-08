@@ -11,22 +11,22 @@ Reads saved neural network and self attention blocks from the inputed filepaths.
 
 ---
 ## Basic Info
-A wrapper class that holds a [`neuralNetwork`]("../neural_network/neuralNetwork.md") and a [`selfAttention`]("../self_attention/selfAttention.md) block.
+A wrapper class that holds a [`neuralNetwork`](../neural_network/neuralNetwork.md) and a [`selfAttention`](../self_attention/selfAttention.md) block.
 
 ### Instance Variables
-| Variable    | Type                                                    |
-|-------------|---------------------------------------------------------|
-| `network`   | [`neuralNetwork`]("../neural_network/neuralNetwork.md") |
-| `attention` | [`selfAttention`]("../self_attention/selfAttention.md") |
-| `n_embd`    | `size_t`                                                |
+| Variable    | Type                                                  |
+|-------------|-------------------------------------------------------|
+| `network`   | [`neuralNetwork`](../neural_network/neuralNetwork.md) |
+| `attention` | [`selfAttention`](../self_attention/selfAttention.md) |
+| `n_embd`    | `size_t`                                              |
 ---
 ## Functions
- - [`backward()`]("./backward.md")
- - [`changeOne()`]("./changeOne.md")
- - [`feedForward()`]("./feedForward.md")
- - [`init()`]("./init.md")
- - [`readFromFile()`]("./readFromFile.md")
- - [`saveToFile()`]("./saveToFile.md")
+ - [`backward()`](./backward.md)
+ - [`changeOne()`](./changeOne.md)
+ - [`feedForward()`](./feedForward.md)
+ - [`init()`](./init.md)
+ - [`readFromFile()`](./readFromFile.md)
+ - [`saveToFile()`](./saveToFile.md)
 ---
 ## Example
 

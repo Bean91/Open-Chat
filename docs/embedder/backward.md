@@ -8,10 +8,10 @@ Updates the embedding table according to the gradient calculated throughout.
 Returns `void`
 
 ### Parameters
-| Parameter | Type                                        | Use             | Optional |
-|-----------|---------------------------------------------|-----------------|----------|
-| `dZ`      | [`utility::matrix`]("../utility/matrix.md") | Gradient matrix | ❌        |
-| `lr`      | `float`                                     | Learning rate   | ❌        |
+| Parameter | Type                                      | Use             | Optional |
+|-----------|-------------------------------------------|-----------------|----------|
+| `dZ`      | [`utility::matrix`](../utility/matrix.md) | Gradient matrix | ❌        |
+| `lr`      | `float`                                   | Learning rate   | ❌        |
 ---
 ## Example
 
