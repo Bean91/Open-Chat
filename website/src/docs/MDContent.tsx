@@ -40,20 +40,20 @@ const MDContent: React.FC<docs> = ({sec, ite}) => {
 	const sidebar = useRef<HTMLDivElement | null>(null);
 	const { section, item } = useParams();
 	const [content, setContent] = useState<string>("");
-	const [docsList, setDocsList] = useState<string[]>([""]);
 	const [sectionsList, setSectionsList] = useState<string[]>([""]);
 	const [itemsList, setItemsList] = useState<string[][]>([[""]]);
 
-	const classes = "cursor-pointer p-1 rounded-sm"
+	const classes = "cursor-pointer py-1 pt-1.5 px-2 rounded-sm my-1"
 
 	useEffect(() => {
 		fetch("https://raw.githubusercontent.com/bean91/open-chat/main/docs/docslist.txt", {
 			"method": "GET",
 		})
-		.then(response => response.json())
+		.then(response => response.text())
 		.then(data => {
-			setDocsList(data);
-			console.log(data);
+			const parsedData: string[] = data.split("\n");
+			setSectionsList(JSON.parse(parsedData[0]));
+			setItemsList(JSON.parse(parsedData[1]));
 		});
 		if (sec && !ite) {
 			fetch(`https://raw.githubusercontent.com/bean91/open-chat/main/docs/AIUsage.md`, {
@@ -83,12 +83,8 @@ const MDContent: React.FC<docs> = ({sec, ite}) => {
 			} else {
 				sidebar.current.innerHTML = `<p class="${classes}"><a href="/docs">Introduction</a></p><p class="${classes}"><a href="/docs/aiusage">AI Usage</a></p>`;
 			}
-			if (docsList[1]) {
-				setSectionsList(JSON.parse(docsList[0]));
-				setItemsList(JSON.parse(docsList[1]));
-			}
 		}
-	}, [docsList, section, item, sec, ite, sidebar, classes])
+	}, [section, item, sec, ite, sidebar, classes])
 
 	useEffect(() => {
 		if (sidebar.current) {
