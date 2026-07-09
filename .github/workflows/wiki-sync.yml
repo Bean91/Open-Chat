@@ -1,0 +1,43 @@
+name: Wiki Auto-Sync
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+
+permissions:
+  contents: write
+
+jobs:
+  sync-wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Main Repository
+        uses: actions/checkout@v4
+        with:
+          path: main-repo
+
+      - name: Checkout Wiki Repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository }}.wiki
+          path: wiki-repo
+
+      - name: Copy Files and Push to Wiki
+        run: |
+          # Clear out existing wiki files to avoid stale pages, then copy new ones
+          rm -rf wiki-repo/*
+          cp -r main-repo/wiki/* wiki-repo/
+          
+          cd wiki-repo
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Only commit and push if changes exist
+          git add .
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Automated wiki update from GitHub Action"
+            git push
+          fi
