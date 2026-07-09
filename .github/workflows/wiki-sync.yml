@@ -30,7 +30,7 @@ jobs:
       - name: Copy Files and Push to Wiki
         run: |
           rm -rf wiki-repo/*
-          cp -r main-repo/wiki/* wiki-repo/
+          cp -r main-repo/docs/* wiki-repo/
           
           cd wiki-repo
           git config --local user.email "action@github.com"
