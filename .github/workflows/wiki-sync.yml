@@ -27,17 +27,49 @@ jobs:
           repository: ${{ github.repository }}.wiki
           path: wiki-repo
 
-      - name: Copy Files and Push to Wiki
+      - name: Flatten Folders, Generate Sidebar, and Push to Wiki
         run: |
           rm -rf wiki-repo/*
-          cp -r main-repo/docs/* wiki-repo/
           
-          cd wiki-repo
+          cd main-repo/docs
+          
+          echo "### Navigation" > ../../wiki-repo/_Sidebar.md
+          
+          find . -type f | sort | while read -r file; do
+            clean_path="${file#./}"
+            
+            if [ "$clean_path" = "docslist.txt" ]; then
+              echo "Skipping $clean_path"
+              continue
+            fi
+            
+            wiki_filename=$(echo "$clean_path" | tr '/' '-')
+            
+            cp "$clean_path" "../../wiki-repo/$wiki_filename"
+            
+            wiki_pagename="${wiki_filename%.md}"
+            
+            slashes=$(echo "$clean_path" | tr -cd '/' | wc -c)
+            
+            indent=""
+            for ((i=0; i<slashes; i++)); do
+              indent="  $indent"
+            done
+            
+            display_name=$(basename "$clean_path" .md)
+            display_name="$(tr '[:lower:]' '[:upper:]' <<< "${display_name:0:1}")${display_name:1}"
+            
+            echo "${indent}* [[$display_name|$wiki_pagename]]" >> ../../wiki-repo/_Sidebar.md
+          done
+          
+          cd ../../wiki-repo
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
           git add .
           if ! git diff-index --quiet HEAD; then
-            git commit -m "Automated wiki update from GitHub Action"
+            git commit -m "Automated wiki update and sidebar generation from GitHub Action"
             git push
+          else
+            echo "No changes to commit"
           fi
