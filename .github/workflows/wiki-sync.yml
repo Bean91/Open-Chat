@@ -35,6 +35,8 @@ jobs:
           
           echo "### Navigation" > ../../wiki-repo/_Sidebar.md
           
+          last_dir=""
+          
           find . -type f | sort | while read -r file; do
             clean_path="${file#./}"
             
@@ -43,18 +45,26 @@ jobs:
               continue
             fi
             
-            wiki_filename=$(echo "$clean_path" | tr '/' '-')
+            current_dir=$(dirname "$clean_path")
             
+            if [ "$current_dir" != "." ] && [ "$current_dir" != "$last_dir" ]; then
+              dir_header="$(tr '[:lower:]' '[:upper:]' <<< "${current_dir:0:1}")${current_dir:1}"
+              
+              echo "* **$dir_header**" >> ../../wiki-repo/_Sidebar.md
+              
+              last_dir="$current_dir"
+            fi
+            
+            wiki_filename=$(echo "$clean_path" | tr '/' '-')
             cp "$clean_path" "../../wiki-repo/$wiki_filename"
             
             wiki_pagename="${wiki_filename%.md}"
             
-            slashes=$(echo "$clean_path" | tr -cd '/' | wc -c)
-            
-            indent=""
-            for ((i=0; i<slashes; i++)); do
-              indent="  $indent"
-            done
+            if [ "$current_dir" != "." ]; then
+              indent="  "
+            else
+              indent=""
+            fi
             
             display_name=$(basename "$clean_path" .md)
             display_name="$(tr '[:lower:]' '[:upper:]' <<< "${display_name:0:1}")${display_name:1}"
